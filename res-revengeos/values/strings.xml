@@ -53,7 +53,7 @@
 
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Close</string>
-    
+
     <!-- LiveDisplay -->
     <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
     <string name="live_display_mode">Display mode</string>
@@ -142,7 +142,7 @@
     <string name="back_height_high_label">Bottom</string>
     <string name="back_options_dialog_title">Options</string>
     <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
-    
+
     <!-- Weather -->
     <string name="weather_settings_title">Weather</string>
     <string name="weather_settings_summary">Customise the weather</string>
@@ -168,4 +168,9 @@
     <string name="ambient_display_on_charge_title">While charging</string>
     <string name="ambient_display_always_title">Always</string>
     <string name="ambient_display_screen_summary">Show time, notification icons, and other info</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+
 </resources>

@@ -45,4 +45,8 @@
 
     <!-- Hide gesture navigation bar -->
     <string name="hide_gesture_navigation_bar_title">Hide gesture navigation bar</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
 </resources>

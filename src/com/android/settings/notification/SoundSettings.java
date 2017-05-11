@@ -28,6 +28,8 @@ import android.provider.SearchIndexableResource;
 import android.support.annotation.VisibleForTesting;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceScreen;
+import android.support.v7.preference.PreferenceCategory;
 import android.text.TextUtils;
 
 import com.android.internal.logging.nano.MetricsProto;
@@ -38,6 +40,7 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.sound.HandsFreeProfileOutputPreferenceController;
 import com.android.settings.sound.MediaOutputPreferenceController;
+import com.android.settings.Utils;
 import com.android.settings.widget.PreferenceCategoryController;
 import com.android.settings.widget.UpdatableListPreferenceDialogFragment;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -52,6 +55,7 @@ public class SoundSettings extends DashboardFragment {
     private static final String TAG = "SoundSettings";
 
     private static final String SELECTED_PREFERENCE_KEY = "selected_preference";
+    private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
     private static final int REQUEST_CODE = 200;
     private static final String KEY_ZEN_MODE = "zen_mode";
     private static final int SAMPLE_CUTOFF = 2000;  // manually cap sample playback at 2 seconds
@@ -91,11 +95,17 @@ public class SoundSettings extends DashboardFragment {
             if (!TextUtils.isEmpty(selectedPreference)) {
                 mRequestPreference = (RingtonePreference) findPreference(selectedPreference);
             }
-
             UpdatableListPreferenceDialogFragment dialogFragment =
                     (UpdatableListPreferenceDialogFragment) getFragmentManager()
                             .findFragmentByTag(TAG);
             mDialogFragment = dialogFragment;
+            
+            PreferenceScreen prefScreen = getPreferenceScreen();
+            PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+    
+            if (!Utils.isVoiceCapable(getActivity())) {
+                prefScreen.removePreference(incallVibCategory);
+            }
         }
     }
 

@@ -21,6 +21,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/buttons_settings_title">
 
+     <com.revengeos.settings.preference.SystemSettingSwitchPreference
+        android:key="volume_button_music_control"
+        android:summary="@string/volume_rocker_music_controls_summary"
+        android:title="@string/volume_rocker_music_controls_title"
+        android:defaultValue="true" />
+
     <com.revengeos.settings.preference.SystemSettingSwitchPreference
         android:key="volume_rocker_wake"
         android:summary="@string/volume_rocker_wake_summary"

@@ -284,6 +284,8 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
                         bootSoundPreferenceController,
                         emergencyTonePreferenceController)));
 
+        controllers.add(new LinkedVolumesPreferenceController(context));
+
         return controllers;
     }
 

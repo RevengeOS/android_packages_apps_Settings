@@ -60,4 +60,7 @@
     <string name="fod_recog_animation_pureview_future">Future</string>
     <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string> 
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>

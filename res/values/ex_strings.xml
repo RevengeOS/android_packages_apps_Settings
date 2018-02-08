@@ -115,5 +115,8 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!--Build date-->
+    <string name="build_date">Build date</string>
+
 </resources>
 

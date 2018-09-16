@@ -46,6 +46,8 @@ import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
 import com.android.settingslib.development.DevelopmentSettingsEnabler;
 
+import android.os.SystemProperties;
+
 public class BuildNumberPreferenceController extends AbstractPreferenceController implements
         PreferenceControllerMixin, LifecycleObserver, OnResume {
 
@@ -83,7 +85,14 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
         final Preference preference = screen.findPreference(KEY_BUILD_NUMBER);
         if (preference != null) {
             try {
-                preference.setSummary(BidiFormatter.getInstance().unicodeWrap(Build.ID));
+                StringBuilder sb = new StringBuilder();
+                sb.append(BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
+                String RevengeOSVersion = SystemProperties.get("ro.revengeos.version","");
+                if (!RevengeOSVersion.equals("")){
+                    sb.append("\n");
+                    sb.append(RevengeOSVersion);
+                }
+                preference.setSummary(sb.toString());
                 preference.setEnabled(true);
             } catch (Exception e) {
                 preference.setSummary(R.string.device_info_default);

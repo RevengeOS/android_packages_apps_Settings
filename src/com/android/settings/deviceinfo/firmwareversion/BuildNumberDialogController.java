@@ -37,7 +37,13 @@ public class BuildNumberDialogController {
      * Updates the build number to the dialog.
      */
     public void initialize() {
-        mDialog.setText(BUILD_NUMBER_VALUE_ID,
-                BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
+        StringBuilder sb = new StringBuilder();
+        sb.append(BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
+        String RevengeOSVersion = SystemProperties.get("ro.revengeos.version","");
+        if (!RevengeOSVersion.equals("")){
+            sb.append("\n");
+            sb.append(RevengeOSVersion);
+        }
+        mDialog.setText(BUILD_NUMBER_VALUE_ID, sb.toString());
     }
 }

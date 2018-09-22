@@ -68,7 +68,7 @@ public class QuickUnlockPreferenceController extends AbstractPreferenceControlle
     @Override
     public void updateState(Preference preference) {
         int value = Settings.System.getInt(
-                mContext.getContentResolver(), Settings.System.LOCKSCREEN_QUICK_UNLOCK_CONTROL, 0);
+                mContext.getContentResolver(), Settings.System.LOCKSCREEN_QUICK_UNLOCK_CONTROL, 1);
         ((SwitchPreference) preference).setChecked(value != 0);
     }
 

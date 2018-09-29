@@ -37,4 +37,9 @@
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 
+    <!-- Settings item title for accep all/any files over Bluetooth preference [CHAR LIMIT=35] -->
+    <string name="bluetooth_accept_all_files">Accept all file types</string>
+    <!-- Settings item summary for accep all/any files over Bluetooth preference [CHAR LIMIT=100] -->
+    <string name="bluetooth_accept_all_files_summary">Accept all/any file types over bluetooth transfer</string>
+
 </resources>

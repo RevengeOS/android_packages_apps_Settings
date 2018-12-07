@@ -73,5 +73,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+       <LinearLayout
+    	   android:gravity="center"
+	   android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+           android:selectable="false">
+
+           <ImageView
+	       android:layout_width="match_parent"
+ 	       android:layout_height="match_parent"
+	       android:src="@drawable/revengeos_logo"
+	       android:adjustViewBounds="true"
+	       android:scaleType="centerInside" />
+
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

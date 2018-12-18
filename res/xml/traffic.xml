@@ -28,7 +28,7 @@
         android:dependency="network_traffic_state"
         android:defaultValue="false" />
 
-     <com.android.settings.arrow.preferences.CustomSeekBarPreference
+     <com.android.settings.revenge.preferences.CustomSeekBarPreference
         android:key="network_traffic_autohide_threshold"
         android:title="@string/network_traffic_autohide_threshold_title"
         android:max="10"

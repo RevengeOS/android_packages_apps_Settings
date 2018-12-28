@@ -40,6 +40,12 @@
         android:summary="@string/lockdown_settings_summary"
         settings:controller="com.android.settings.security.LockdownButtonPreferenceController"/>
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="fp_unlock_keystore"
+        android:title="@string/fp_unlock_keystore_title"
+        android:summary="@string/fp_unlock_keystore_summary"
+        android:defaultValue="false" />
+
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that
          any of the above settings (including dynamic) are specific to the work profile. -->
     <PreferenceCategory
@@ -51,14 +57,6 @@
             android:key="security_setting_lock_screen_notif_work"
             android:title="@string/locked_work_profile_notification_title"
             android:summary="@string/summary_placeholder" />
-
-
-        <com.android.settings.SystemSettingSwitchPreference
-           android:key="fp_unlock_keystore"
-           android:title="@string/fp_unlock_keystore_title"
-           android:summary="@string/fp_unlock_keystore_summary"
-           android:defaultValue="false" />
-
     </PreferenceCategory>
 
 </PreferenceScreen>

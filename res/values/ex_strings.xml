@@ -112,6 +112,7 @@
     <string name="gesture_action_timeout_summary">Timeout before the gesture action is started</string>
     <string name="unit_dpi">dpi</string>
     <string name="unit_px">px</string>
+    <string name="unit_msec">ms</string>
 
 </resources>
 

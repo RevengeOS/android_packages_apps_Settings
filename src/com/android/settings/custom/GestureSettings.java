@@ -23,8 +23,10 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
+import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 import android.provider.SearchIndexableResource;
 import android.util.DisplayMetrics;
@@ -45,9 +47,13 @@ public class GestureSettings extends SettingsPreferenceFragment implements
     private static final String TAG = "GestureSettings";
     private static final String KEY_SWIPE_LENGTH = "gesture_swipe_length";
     private static final String KEY_SWIPE_TIMEOUT = "gesture_swipe_timeout";
+    private static final String USE_BOTTOM_GESTURE_NAVIGATION = "use_bottom_gesture_navigation";
 
     private CustomSeekBarPreference mSwipeTriggerLength;
     private CustomSeekBarPreference mSwipeTriggerTimeout;
+    private SwitchPreference mEnableOmniGesture;
+
+    ContentResolver mContentResolver;
 
     @Override
     public int getMetricsCategory() {
@@ -55,9 +61,16 @@ public class GestureSettings extends SettingsPreferenceFragment implements
     }
 
     public void onCreate(Bundle savedInstanceState) {
+        mContentResolver = getContentResolver();
+
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.gesture_settings);
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.gesture_settings_info);
+
+        mEnableOmniGesture = (SwitchPreference) findPreference(USE_BOTTOM_GESTURE_NAVIGATION);
+        mEnableOmniGesture.setChecked(Settings.System.getIntForUser(getContentResolver(),
+                    Settings.System.OMNI_USE_BOTTOM_GESTURE_NAVIGATION, 0,
+                    UserHandle.USER_CURRENT) != 0);
 
         mSwipeTriggerLength = (CustomSeekBarPreference) findPreference(KEY_SWIPE_LENGTH);
         int value = Settings.System.getInt(getContentResolver(),
@@ -79,6 +92,25 @@ public class GestureSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
+        if (preference == mEnableOmniGesture) {
+            boolean checked = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(mContentResolver,
+                    Settings.System.OMNI_USE_BOTTOM_GESTURE_NAVIGATION, checked ? 1 : 0);
+            if (checked) {
+                Settings.System.putInt(mContentResolver,
+                        Settings.System.NAVIGATION_BAR_SHOW, 0);
+                Settings.Secure.putInt(mContentResolver,
+                        Settings.Secure.HARDWARE_KEYS_DISABLE, 1);
+            } else {
+                boolean showNavigationBar = getResources().getBoolean(com.android.internal.R.bool.config_showNavigationBar);
+                if (showNavigationBar) {
+                    Settings.System.putInt(mContentResolver, Settings.System.NAVIGATION_BAR_SHOW, 1);
+                } else {
+                    Settings.Secure.putInt(mContentResolver, Settings.Secure.HARDWARE_KEYS_DISABLE, 0);
+                }
+            }
+            return true;
+        }
         return super.onPreferenceTreeClick(preference);
     }
 
@@ -88,11 +120,11 @@ public class GestureSettings extends SettingsPreferenceFragment implements
 
         if (preference == mSwipeTriggerLength) {
             int value = (Integer) objValue;
-            Settings.System.putInt(getContentResolver(),
+            Settings.System.putInt(mContentResolver,
                     Settings.System.OMNI_BOTTOM_GESTURE_SWIPE_LIMIT, value);
         } else if (preference == mSwipeTriggerTimeout) {
             int value = (Integer) objValue;
-            Settings.System.putInt(getContentResolver(),
+            Settings.System.putInt(mContentResolver,
                     Settings.System.OMNI_BOTTOM_GESTURE_TRIGGER_TIMEOUT, value);
         } else {
             return false;

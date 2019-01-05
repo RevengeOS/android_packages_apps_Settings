@@ -19,11 +19,11 @@
         android:key="gesture_settings"
         android:title="@string/gesture_settings_title" >
 
-    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+    <SwitchPreference
             android:key="use_bottom_gesture_navigation"
             android:title="@string/use_bottom_gesture_title"
             android:summary="@string/use_bottom_gesture_summary"
-            android:defaultValue="false" />
+            android:persistent="false" />
 
         <org.aospextended.extensions.preference.CustomSeekBarPreference
             android:key="gesture_swipe_length"

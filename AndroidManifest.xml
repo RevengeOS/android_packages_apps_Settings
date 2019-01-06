@@ -3347,8 +3347,8 @@
                  android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <activity android:name=".Settings$ExtensionsSettingsActivity"
-                  android:label="@string/extensions_title"
-                  android:icon="@drawable/ic_homepage_extensions"
+                  android:label="@string/customisation_title"
+                  android:icon="@drawable/ic_homepage_customisation"
                   android:taskAffinity="com.android.settings">
             <intent-filter android:priority="9">
                 <action android:name="com.android.settings.action.SETTINGS"/>

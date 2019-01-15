@@ -64,8 +64,8 @@ public class GestureSettings extends SettingsPreferenceFragment implements
                 Settings.System.OMNI_BOTTOM_GESTURE_SWIPE_LIMIT,
                 getSwipeLengthInPixel(getResources().getInteger(com.android.internal.R.integer.nav_gesture_swipe_min_length)));
 
-        mSwipeTriggerLength.setMin(getSwipeLengthInPixel(40));
-        mSwipeTriggerLength.setMax(getSwipeLengthInPixel(80));
+        mSwipeTriggerLength.setMinValue(getSwipeLengthInPixel(40));
+        mSwipeTriggerLength.setMaxValue(getSwipeLengthInPixel(80));
         mSwipeTriggerLength.setValue(value);
         mSwipeTriggerLength.setOnPreferenceChangeListener(this);
 

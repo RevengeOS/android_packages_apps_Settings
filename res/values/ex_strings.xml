@@ -106,12 +106,5 @@
     <string name="use_bottom_gesture_title">Navigation gestures</string>
     <string name="use_bottom_gesture_summary">Use bottom swipe up gestures for navigation</string>
 
-    <string name="gesture_swipe_length_title">Swipe trigger height</string>
-    <string name="gesture_swipe_length_summary">Heigth from bottom to trigger swipe</string>
-    <string name="gesture_action_timeout_title">Swipe trigger timeout</string>
-    <string name="gesture_action_timeout_summary">Timeout before the gesture action is started</string>
-    <string name="unit_dpi">dpi</string>
-    <string name="unit_px">px</string>
-
 </resources>
 

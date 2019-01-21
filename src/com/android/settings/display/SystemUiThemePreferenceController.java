@@ -28,7 +28,6 @@ import android.util.FeatureFlagUtils;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
-import com.android.internal.util.aospextended.AEXUtils;
 
 /**
  * Setting where user can pick if SystemUI will be light, dark or try to match
@@ -62,7 +61,6 @@ public class SystemUiThemePreferenceController extends BasePreferenceController
         int value = Integer.parseInt((String) newValue);
         Settings.Secure.putInt(mContext.getContentResolver(), THEME_MODE, value);
         refreshSummary(preference);
-        AEXUtils.restartSystemUi(mContext);
         return true;
     }
 

@@ -10113,4 +10113,8 @@
     <!-- Reset network progress screen text [CHAR LIMIT=75] -->
     <string name="reset_network_progress_text">Please wait...</string>
 
+    <!-- Dark theme style screen -->
+    <string name="dark_theme_style_title">Dark theme style</string>
+    <string name="systemui_theme_black">AMOLED</string>
+
 </resources>

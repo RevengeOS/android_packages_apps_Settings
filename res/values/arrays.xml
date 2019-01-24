@@ -1162,6 +1162,18 @@
         <item>2</item>
     </string-array>
 
+    <!-- Titles for SystemUI dark theme style preference. -->
+    <string-array name="dark_theme_style_entries" >
+        <item>@string/systemui_theme_dark</item>
+        <item>@string/systemui_theme_black</item>
+    </string-array>
+
+    <!-- Values for SystemUI dark theme style preference. -->
+    <string-array name="dark_theme_style_values" translatable="false" >
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
     <string-array name="gesture_prevent_ringing_entries" translatable="false">
         <item>@string/prevent_ringing_option_vibrate</item>
         <item>@string/prevent_ringing_option_mute</item>

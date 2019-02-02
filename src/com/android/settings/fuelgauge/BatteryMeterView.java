@@ -62,7 +62,7 @@ public class BatteryMeterView extends ImageView {
         //mDrawable.setShowPercent(false);
         int userStyle = Settings.Secure.getInt(mContext.getContentResolver(),
                 Settings.Secure.STATUS_BAR_BATTERY_STYLE,
-                BatteryMeterDrawableBase.BATTERY_STYLE_PORTRAIT);
+                BatteryMeterDrawableBase.BATTERY_STYLE_CIRCLE);
         mDrawable = new BatteryMeterDrawable(context, frameColor, userStyle);
         mDrawable.setBatteryColorFilter(mAccentColorFilter);
         mDrawable.setWarningColorFilter(

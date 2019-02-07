@@ -45,10 +45,10 @@
                         android:startY="110.3483"
                         android:type="linear">
                         <item
-                            android:color="@*android:color/primary_accent"
+                            android:color="?android:attr/colorGradientStart"
                             android:offset="0" />
                         <item
-                            android:color="@*android:color/secondary_accent"
+                            android:color="?android:attr/colorGradientEnd"
                             android:offset="1" />
                     </gradient>
                 </aapt:attr>
@@ -68,10 +68,10 @@
                         android:startY="145.1495"
                         android:type="linear">
                         <item
-                            android:color="@*android:color/primary_accent"
+                            android:color="?android:attr/colorGradientStart"
                             android:offset="0" />
                         <item
-                            android:color="@*android:color/secondary_accent"
+                            android:color="?android:attr/colorGradientEnd"
                             android:offset="1" />
                     </gradient>
                 </aapt:attr>
@@ -85,10 +85,10 @@
                         android:startY="140.9435"
                         android:type="linear">
                         <item
-                            android:color="@*android:color/primary_accent"
+                            android:color="?android:attr/colorGradientStart"
                             android:offset="0" />
                         <item
-                            android:color="@*android:color/secondary_accent"
+                            android:color="?android:attr/colorGradientEnd"
                             android:offset="1" />
                     </gradient>
                 </aapt:attr>

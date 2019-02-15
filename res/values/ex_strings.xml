@@ -106,8 +106,5 @@
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 
-    <!-- Screenshot sound option -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
-
 </resources>
 

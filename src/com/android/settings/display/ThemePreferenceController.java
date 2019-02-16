@@ -79,7 +79,8 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
         ListPreference pref = (ListPreference) preference;
         String[] pkgs = getAvailableThemes();
         CharSequence[] labels = new CharSequence[pkgs.length];
-        for (int i = 0; i < pkgs.length; i++) {
+        labels[0] = "Default";
+        for (int i = 1; i < pkgs.length; i++) {
             try {
                 labels[i] = mPackageManager.getApplicationInfo(pkgs[i], 0)
                         .loadLabel(mPackageManager);
@@ -99,10 +100,6 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
             }
         }
 
-        if (TextUtils.isEmpty(themeLabel)) {
-            themeLabel = mContext.getString(R.string.default_theme);
-        }
-
         pref.setSummary(themeLabel);
         pref.setValue(theme);
     }
@@ -111,6 +108,10 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         String current = getTheme();
         if (Objects.equals(newValue, current)) {
+            return true;
+        }
+        if (Objects.equals(newValue, "default")) {
+            mOverlayService.setEnabled(current, false, UserHandle.myUserId());
             return true;
         }
         mOverlayService.setEnabledExclusiveInCategory((String) newValue, UserHandle.myUserId());
@@ -137,7 +138,7 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
                 return infos.get(i).packageName;
             }
         }
-        return null;
+        return "default";
     }
 
     @Override
@@ -157,8 +158,10 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
     String[] getAvailableThemes() {
         List<OverlayInfo> infos = mOverlayService.getOverlayInfosForTarget("android",
                 UserHandle.myUserId());
-        List<String> pkgs = new ArrayList<>(infos.size());
-        for (int i = 0, size = infos.size(); i < size; i++) {
+        final int size = infos.size();
+        List<String> pkgs = new ArrayList<>(size + 1);
+        pkgs.add("default");
+        for (int i = 0; i < size; i++) {
             if (isTheme(infos.get(i))) {
                 pkgs.add(infos.get(i).packageName);
             }

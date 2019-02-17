@@ -57,6 +57,12 @@
     </com.android.settingslib.RestrictedPreference>
 
     <Preference
+        android:key="ui_preference_screen"
+        android:title="@string/ui_settings_title"
+        android:summary="@string/summary_placeholder"
+        android:fragment="com.android.settings.display.UiSettings" />
+
+    <Preference
         android:key="expanded_desktop"
         android:title="@string/expanded_desktop_pref_title"
         android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
@@ -138,25 +144,6 @@
         android:key="proximity_on_wake"
         android:title="@string/proximity_wake_title"
         android:summary="@string/proximity_wake_summary" />
-
-    <ListPreference
-        android:key="theme"
-        android:title="@string/color_theme"
-        android:summary="@string/summary_placeholder" />
-
-    <ListPreference
-        android:key="systemui_theme"
-        android:title="@string/device_theme"
-        android:entries="@array/systemui_theme_entries"
-        android:entryValues="@array/systemui_theme_values"
-        settings:controller="com.android.settings.display.SystemUiThemePreferenceController" />
-
-    <ListPreference
-        android:key="dark_theme_style"
-        android:title="@string/dark_theme_style_title"
-        android:entries="@array/dark_theme_style_entries"
-        android:entryValues="@array/dark_theme_style_values"
-        settings:controller="com.android.settings.display.DarkThemeStylePreferenceController" />
 
     <Preference
         android:key="vr_display_pref"

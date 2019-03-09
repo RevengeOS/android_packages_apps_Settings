@@ -141,6 +141,16 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
         return "default";
     }
 
+    CharSequence getCurrentThemeLabel() {
+        final String theme = getTheme();
+        try {
+            return mPackageManager.getApplicationInfo(theme, 0)
+                    .loadLabel(mPackageManager);
+        } catch (NameNotFoundException e) {
+            return theme;
+        }
+    }
+
     @Override
     public boolean isAvailable() {
         if (mOverlayService == null) return false;

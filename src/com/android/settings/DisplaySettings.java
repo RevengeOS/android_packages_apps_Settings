@@ -34,6 +34,7 @@ import com.android.settings.display.ScreenSaverPreferenceController;
 import com.android.settings.display.ShowOperatorNamePreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
 import com.android.settings.display.TimeoutPreferenceController;
+import com.android.settings.display.UiPreferenceController;
 import com.android.settings.display.VrDisplayPreferenceController;
 import com.android.settings.display.WallpaperPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -99,6 +100,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new WallpaperPreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new ColorModePreferenceController(context));
+        controllers.add(new UiPreferenceController(context));
         return controllers;
     }
 

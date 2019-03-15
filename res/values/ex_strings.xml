@@ -121,6 +121,9 @@
     <string name="smart_charging_switch_title">Use Smart charging</string>
     <string name="smart_charging_level_title">Trigger level of Smart charging</string>
     <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
     
 </resources>
 

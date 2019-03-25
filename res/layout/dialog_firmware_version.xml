@@ -73,6 +73,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+        <TextView
+            style="@style/device_info_dialog_label"
+            android:id="@+id/caf_revision_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/caf_revision"/>
+        <TextView
+            style="@style/device_info_dialog_value"
+            android:id="@+id/caf_revision_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
        <LinearLayout
     	   android:gravity="center"
 	   android:layout_width="match_parent"

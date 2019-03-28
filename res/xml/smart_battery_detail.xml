@@ -26,6 +26,18 @@
         settings:animation="@raw/auto_awesome_battery"
         settings:preview="@drawable/auto_awesome_battery"/>
 
+    <org.aospextended.extensions.preference.GlobalSettingSwitchPreference
+        android:key="aggressive_idle_enabled"
+        android:title="@string/aggressive_idle_title"
+        android:summary="@string/aggressive_idle_summary"
+        android:defaultValue="true" />
+
+    <org.aospextended.extensions.preference.GlobalSettingSwitchPreference
+        android:key="aggressive_standby_enabled"
+        android:title="@string/aggressive_standby_title"
+        android:summary="@string/aggressive_standby_summary"
+        android:defaultValue="false" />
+
     <SwitchPreference
         android:key="smart_battery"
         android:title="@string/smart_battery_title"

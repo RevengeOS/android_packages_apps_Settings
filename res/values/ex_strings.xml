@@ -124,6 +124,12 @@
 
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+
+    <!-- Aggressive battery -->
+    <string name="aggressive_idle_title">Extended idle</string>
+    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
+    <string name="aggressive_standby_title">Extended apps standby</string>
+    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
     
 </resources>
 

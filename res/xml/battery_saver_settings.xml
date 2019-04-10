@@ -20,6 +20,12 @@
     android:title="@string/battery_saver"
     android:key="battery_saver_page">
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="battery_saver_dark_theme"
+        android:title="@string/battery_saver_dark_theme_title"
+        android:summary="@string/battery_saver_dark_theme_summary"
+        android:defaultValue="false"/>
+
     <!-- Turn on automatically -->
     <SwitchPreference
         android:key="auto_battery_saver"

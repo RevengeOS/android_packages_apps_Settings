@@ -33,6 +33,12 @@
         android:entryValues="@array/systemui_theme_values"
         settings:controller="com.android.settings.display.SystemUiThemePreferenceController" />
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="battery_saver_dark_theme"
+        android:title="@string/battery_saver_dark_theme_title"
+        android:summary="@string/battery_saver_dark_theme_summary"
+        android:defaultValue="false"/>
+
     <ListPreference
         android:key="dark_theme_style"
         android:title="@string/dark_theme_style_title"

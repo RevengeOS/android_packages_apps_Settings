@@ -10116,4 +10116,8 @@
     <string name="dark_theme_style_title">Dark theme style</string>
     <string name="systemui_theme_black">AMOLED</string>
 
+    <!-- Auto dark theme on battery saver -->
+    <string name="battery_saver_dark_theme_title">Use dark theme when battery saver is on</string>
+    <string name="battery_saver_dark_theme_summary">Dark theme can reduce the battery consumption</string>
+
 </resources>

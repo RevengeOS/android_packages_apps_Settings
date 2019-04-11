@@ -21,6 +21,12 @@
     android:key="night_display_title"
     settings:keywords="@string/keywords_display_night_display">
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="dark_theme_on_night"
+        android:title="@string/dark_theme_on_night_title"
+        android:summary="@string/dark_theme_on_night_summary"
+        android:defaultValue="false"/>
+
     <DropDownPreference
         android:key="night_display_auto_mode"
         android:title="@string/night_display_auto_mode_title"

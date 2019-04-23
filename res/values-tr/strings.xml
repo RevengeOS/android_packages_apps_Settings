@@ -4154,4 +4154,17 @@
     <string name="devices_title" msgid="7701726109334110391">"Cihazlar"</string>
     <string name="qtifeedback_settings_title">Donanım Geri Bildirimi</string>
     <string name="qtifeedback_settings_subtitle">Qualcomm Technologies, Inc Raporlama</string>
+
+    <!-- Dark theme style screen -->
+    <string name="dark_theme_style_title">Karanlık tema stili</string>
+    <string name="systemui_theme_black">Amoled</string>
+
+    <!-- Auto dark theme on battery saver -->
+    <string name="battery_saver_dark_theme_title">Pil tasarrufu açıkken karanlık temayı kullan</string>
+    <string name="battery_saver_dark_theme_summary">Karanlık tema pil tüketimini azaltabilir</string>
+
+    <!-- Auto dark theme on night -->
+    <string name="dark_theme_on_night_title">Gece karanlık temayı kullan</string>
+    <string name="dark_theme_on_night_summary">Güneş battıktan sonra karanlık temayı kullanın</string>
+
 </resources>

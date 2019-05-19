@@ -33,10 +33,6 @@
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
 
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-
     <!-- Settings item title for accep all/any files over Bluetooth preference [CHAR LIMIT=35] -->
     <string name="bluetooth_accept_all_files">Accept all file types</string>
     <!-- Settings item summary for accep all/any files over Bluetooth preference [CHAR LIMIT=100] -->

@@ -10122,8 +10122,4 @@
     <string name="battery_saver_dark_theme_title">Use dark theme when battery saver is on</string>
     <string name="battery_saver_dark_theme_summary">Dark theme can reduce the battery consumption</string>
 
-    <!-- Auto dark theme on night -->
-    <string name="dark_theme_on_night_title">Use dark theme when it is night</string>
-    <string name="dark_theme_on_night_summary">Turn on dark theme after the sunset</string>
-
 </resources>

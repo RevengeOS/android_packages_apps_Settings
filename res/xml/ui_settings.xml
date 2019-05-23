@@ -39,12 +39,6 @@
         android:summary="@string/battery_saver_dark_theme_summary"
         android:defaultValue="false"/>
 
-    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-        android:key="dark_theme_on_night"
-        android:title="@string/dark_theme_on_night_title"
-        android:summary="@string/dark_theme_on_night_summary"
-        android:defaultValue="false"/>
-
     <ListPreference
         android:key="dark_theme_style"
         android:title="@string/dark_theme_style_title"

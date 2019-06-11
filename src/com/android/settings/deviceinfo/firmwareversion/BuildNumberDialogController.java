@@ -22,8 +22,6 @@ import android.text.BidiFormatter;
 
 import com.android.settings.R;
 
-import android.os.SystemProperties;
-
 public class BuildNumberDialogController {
 
     @VisibleForTesting
@@ -39,13 +37,7 @@ public class BuildNumberDialogController {
      * Updates the build number to the dialog.
      */
     public void initialize() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
-        String RevengeOSVersion = SystemProperties.get("ro.revengeos.version","");
-        if (!RevengeOSVersion.equals("")){
-            sb.append("\n");
-            sb.append(RevengeOSVersion);
-        }
-        mDialog.setText(BUILD_NUMBER_VALUE_ID, sb.toString());
+        mDialog.setText(BUILD_NUMBER_VALUE_ID,
+                BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
     }
 }

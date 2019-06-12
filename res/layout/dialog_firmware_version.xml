@@ -39,6 +39,16 @@
 
         <TextView
             style="@style/device_info_dialog_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/software_version"/>
+        <com.revengeos.settings.preference.deviceinfo.SoftwareVersionTextView
+            style="@style/device_info_dialog_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            style="@style/device_info_dialog_label"
             android:id="@+id/baseband_version_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

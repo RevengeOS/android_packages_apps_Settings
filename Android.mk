@@ -21,12 +21,16 @@ LOCAL_USE_AAPT2 := true
 LOCAL_SRC_FILES := $(call all-java-files-under, src) \
                    $(call all-java-files-under, ../Extensions/src)
 
+LOCAL_SRC_FILES += $(call all-java-files-under, ../RevengeSettings/src)
+
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/preference/res \
     frameworks/support/v14/preference/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res \
     packages/apps/Extensions/res
+
+LOCAL_RESOURCE_DIR += packages/apps/RevengeSettings/res
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-slices-builders \
@@ -75,6 +79,8 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v7.recyclerview \
     --extra-packages org.aospextended.extensions \
     --extra-packages io.reactivex.android
+
+LOCAL_AAPT_FLAGS += --extra-packages com.revengeos.settings
 
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled

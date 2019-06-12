@@ -58,16 +58,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     jsr305 \
     settings-logtags \
     okhttpcustom \
-    okio \
-    retrofit \
-    converter-gson \
-    rxjava \
-    adapter-rxjava \
-    gson \
-    reactive-streams
-
-LOCAL_STATIC_JAVA_AAR_LIBRARIES += \
-    rxandroid
+    okio
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
@@ -77,8 +68,7 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v17.preference \
     --extra-packages android.support.v7.appcompat \
     --extra-packages android.support.v7.recyclerview \
-    --extra-packages org.aospextended.extensions \
-    --extra-packages io.reactivex.android
+    --extra-packages org.aospextended.extensions
 
 LOCAL_AAPT_FLAGS += --extra-packages com.revengeos.settings
 
@@ -97,14 +87,7 @@ include $(CLEAR_VARS)
 
 LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
     okhttpcustom:libs/okhttp-3.8.1.jar \
-    okio:libs/okio-1.13.0.jar \
-    retrofit:libs/retrofit-2.4.0.jar \
-    converter-gson:libs/converter-gson-2.4.0.jar \
-    rxjava:libs/rxjava-2.1.11.jar \
-    adapter-rxjava:libs/adapter-rxjava2-2.4.0.jar \
-    rxandroid:libs/rxandroid-2.0.2.aar \
-    gson:libs/gson-2.8.2.jar \
-    reactive-streams:libs/reactive-streams-1.0.2.jar
+    okio:libs/okio-1.13.0.jar
 
 include $(BUILD_MULTI_PREBUILT)
 

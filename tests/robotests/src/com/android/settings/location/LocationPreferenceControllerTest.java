@@ -105,30 +105,45 @@ public class LocationPreferenceControllerTest {
     }
 
     @Test
-    public void getLocationSummary_sensorsOnly_shouldSetSummaryOn() {
-        final ContentResolver contentResolver = mContext.getContentResolver();
-        Secure.putInt(contentResolver, Secure.LOCATION_MODE, Secure.LOCATION_MODE_SENSORS_ONLY);
+    public void getLocationSummary_sensorsOnly_shouldSetSummarySensorsOnly() {
+        Secure.putInt(mContext.getContentResolver(),
+                Secure.LOCATION_MODE, Secure.LOCATION_MODE_SENSORS_ONLY);
 
         final String locationSummary = mController.getLocationSummary(mContext);
-        assertThat(locationSummary).isEqualTo(mContext.getString(R.string.location_on_summary));
+        assertThat(locationSummary).isEqualTo(mContext.getString(R.string.location_on_summary,
+                        mContext.getString(R.string.location_mode_sensors_only_title)));
     }
 
     @Test
-    public void getLocationSummary_highAccuracy_shouldSetSummaryOn() {
-        final ContentResolver contentResolver = mContext.getContentResolver();
-        Secure.putInt(contentResolver, Secure.LOCATION_MODE, Secure.LOCATION_MODE_HIGH_ACCURACY);
+    public void getLocationSummary_highAccuracy_shouldSetSummarHighAccuracy() {
+        Secure.putInt(mContext.getContentResolver(),
+                Secure.LOCATION_MODE, Secure.LOCATION_MODE_HIGH_ACCURACY);
 
         final String locationSummary = mController.getLocationSummary(mContext);
-        assertThat(locationSummary).isEqualTo(mContext.getString(R.string.location_on_summary));
+        assertThat(locationSummary).isEqualTo(mContext.getString(R.string.location_on_summary,
+                        mContext.getString(R.string.location_mode_high_accuracy_title)));
     }
 
     @Test
-    public void getLocationSummary_batterySaving_shouldSetSummaryOn() {
-        final ContentResolver contentResolver = mContext.getContentResolver();
-        Secure.putInt(contentResolver, Secure.LOCATION_MODE, Secure.LOCATION_MODE_BATTERY_SAVING);
+    public void getLocationSummary_batterySaving_shouldSetSummaryBatterySaving() {
+        Secure.putInt(mContext.getContentResolver(),
+                Secure.LOCATION_MODE, Secure.LOCATION_MODE_BATTERY_SAVING);
 
         final String locationSummary = mController.getLocationSummary(mContext);
-        assertThat(locationSummary).isEqualTo(mContext.getString(R.string.location_on_summary));
+        assertThat(locationSummary).isEqualTo(mContext.getString(R.string.location_on_summary,
+                        mContext.getString(R.string.location_mode_battery_saving_title)));
+    }
+
+    @Test
+    public void getLocationString_shouldCorrectString() {
+        String locationSummary = mController.getLocationString(Secure.LOCATION_MODE_OFF);
+        assertThat(locationSummary).isEqualTo(R.string.location_mode_location_off_title);
+        locationSummary = mController.getLocationString(Secure.LOCATION_MODE_SENSORS_ONLY);
+        assertThat(locationSummary).isEqualTo(R.string.location_mode_sensors_only_title);
+        locationSummary = mController.getLocationString(Secure.LOCATION_MODE_BATTERY_SAVING);
+        assertThat(locationSummary).isEqualTo(R.string.location_mode_battery_saving_title);
+        locationSummary = mController.getLocationString(Secure.LOCATION_MODE_HIGH_ACCURACY);
+        assertThat(locationSummary).isEqualTo(R.string.location_mode_high_accuracy_title);
     }
 
     @Test

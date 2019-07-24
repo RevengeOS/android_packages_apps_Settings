@@ -53,6 +53,7 @@
             android:textColor="?android:attr/textColorSecondary"
             android:maxLines="1"
             android:ellipsize="end"
+            android:layout_marginTop="5dp"
             android:paddingEnd="@dimen/dashboard_tile_image_margin" />
 
     </LinearLayout>

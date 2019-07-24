@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright (C) 2018 The Android Open Source Project
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/dashboard_tile_image_size"
+    android:height="@dimen/dashboard_tile_image_size"
+    android:viewportWidth="125"
+    android:viewportHeight="125">
 
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item>
-        <shape android:shape="oval">
-            <solid
-                android:color="@color/homepage_accounts_background" />
-            <size
-                android:width="@dimen/dashboard_tile_image_size"
-                android:height="@dimen/dashboard_tile_image_size" />
-        </shape>
-    </item>
-
-    <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
-        android:start="@dimen/dashboard_tile_foreground_image_inset"
-        android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_settings_accounts" />
-</layer-list>
+    <path
+        android:fillColor="#FFE3EC"
+        android:pathData="M 62.5 0 C 97.0177968644 0 125 27.9822031356 125 62.5 C 125 97.0177968644 97.0177968644 125 62.5 125 C 27.9822031356 125 0 97.0177968644 0 62.5 C 0 27.9822031356 27.9822031356 0 62.5 0 Z" />
+    <path
+        android:strokeColor="#FF2C74"
+        android:strokeWidth="7"
+        android:strokeMiterLimit="10"
+        android:pathData="M 63.5 35.1 C 79.1848868952 35.1 91.9 47.8151131048 91.9 63.5 C 91.9 79.1848868952 79.1848868952 91.9 63.5 91.9 C 47.8151131048 91.9 35.1 79.1848868952 35.1 63.5 C 35.1 47.8151131048 47.8151131048 35.1 63.5 35.1 Z" />
+    <path
+        android:strokeColor="#FF2C74"
+        android:strokeWidth="7"
+        android:strokeMiterLimit="10"
+        android:pathData="M 63 48.5 C 67.1421356237 48.5 70.5 51.8578643763 70.5 56 C 70.5 60.1421356237 67.1421356237 63.5 63 63.5 C 58.8578643763 63.5 55.5 60.1421356237 55.5 56 C 55.5 51.8578643763 58.8578643763 48.5 63 48.5 Z" />
+    <path
+        android:strokeColor="#FF2C74"
+        android:strokeWidth="7"
+        android:strokeMiterLimit="10"
+        android:pathData="M42.5,83.5c4.6-5.4,12.1-9,20.5-9c8.5,0,16,3.6,20.6,9" />
+</vector>

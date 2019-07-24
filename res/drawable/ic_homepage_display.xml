@@ -1,36 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright (C) 2018 The Android Open Source Project
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item>
-        <shape android:shape="oval">
-            <solid
-                android:color="@color/homepage_display_background" />
-            <size
-                android:width="@dimen/dashboard_tile_image_size"
-                android:height="@dimen/dashboard_tile_image_size" />
-        </shape>
-    </item>
-
-    <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
-        android:start="@dimen/dashboard_tile_foreground_image_inset"
-        android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_settings_display_white" />
-</layer-list>
+<vector android:height="@dimen/dashboard_tile_image_size" android:viewportHeight="125"
+    android:viewportWidth="125" android:width="@dimen/dashboard_tile_image_size" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#FFF2D9" android:pathData="M62.5,62.5m-62.5,0a62.5,62.5 0,1 1,125 0a62.5,62.5 0,1 1,-125 0"/>
+    <path android:fillColor="#FFF2D9"
+        android:pathData="M40.3,40.3h44.5v44.5h-44.5z"
+        android:strokeColor="#FFA800" android:strokeWidth="7"/>
+    <path android:fillColor="#FFF2D9"
+        android:pathData="M62.5,31.104l31.466,31.466l-31.466,31.466l-31.466,-31.466z"
+        android:strokeColor="#FFA800" android:strokeWidth="7"/>
+    <path android:fillColor="#FFF2D9" android:pathData="M43.8,43.8h37.5v37.5h-37.5z"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M62.5,62.5m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0"
+        android:strokeColor="#FFA800" android:strokeWidth="7"/>
+</vector>

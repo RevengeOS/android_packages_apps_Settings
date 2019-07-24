@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright (C) 2018 The Android Open Source Project
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/dashboard_tile_image_size"
+    android:height="@dimen/dashboard_tile_image_size"
+    android:viewportWidth="125"
+    android:viewportHeight="125">
 
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item>
-        <shape android:shape="oval">
-            <solid
-                android:color="@color/homepage_system_background" />
-            <size
-                android:width="@dimen/dashboard_tile_image_size"
-                android:height="@dimen/dashboard_tile_image_size" />
-        </shape>
-    </item>
-
-    <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
-        android:start="@dimen/dashboard_tile_foreground_image_inset"
-        android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_settings_system_dashboard_white" />
-</layer-list>
+    <path
+        android:fillColor="#E2E5F4"
+        android:pathData="M 62.5 0 C 97.0177968644 0 125 27.9822031356 125 62.5 C 125 97.0177968644 97.0177968644 125 62.5 125 C 27.9822031356 125 0 97.0177968644 0 62.5 C 0 27.9822031356 27.9822031356 0 62.5 0 Z" />
+    <path
+        android:strokeColor="#2B3FAD"
+        android:strokeWidth="7"
+        android:strokeMiterLimit="10"
+        android:pathData="M61.6,35h1.7c2.9,0,5.2,2.3,5.2,5.2V42c0,2.9-2.3,5.2-5.2,5.2h-1.7c-2.9,0-5.2-2.3-5.2-5.2v-1.7 C56.4,37.3,58.7,35,61.6,35z" />
+    <path
+        android:strokeColor="#2B3FAD"
+        android:strokeWidth="7"
+        android:strokeMiterLimit="10"
+        android:pathData="M61.6,61.9h1.7c2.9,0,5.2,2.3,5.2,5.2v19.6c0,2.9-2.3,5.2-5.2,5.2h-1.7c-2.9,0-5.2-2.3-5.2-5.2 V67.2C56.4,64.3,58.7,61.9,61.6,61.9z" />
+</vector>

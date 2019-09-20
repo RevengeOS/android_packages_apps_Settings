@@ -30,6 +30,13 @@
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
     <Preference
+        android:key="buttons_settings"
+        android:title="@string/buttons_settings_title"
+        android:icon="@drawable/ic_settings_buttons"
+        android:order="-249"
+        android:fragment="com.revengeos.settings.fragment.ButtonsSettings" />
+
+    <Preference
         android:key="reset_dashboard"
         android:title="@string/reset_dashboard_title"
         android:summary="@string/reset_dashboard_summary"

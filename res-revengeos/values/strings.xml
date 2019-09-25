@@ -40,6 +40,9 @@
     <!-- Button settings -->
     <string name="buttons_settings_title">Buttons</string>
 
+    <!-- Volume category -->
+    <string name="volume_keys_category">Volume Keys</string>
+
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>

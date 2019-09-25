@@ -46,12 +46,17 @@
         android:title="@string/smart_battery_manager_title"
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController" />
 
+    <Preference
+        android:key="charging_light"
+        android:fragment="com.revengeos.settings.fragment.BatteryLightSettings"
+        settings:controller="com.revengeos.settings.controller.BatteryLightSettingsController"
+        android:title="@string/battery_light_settings" />
+
     <SwitchPreference
         android:key="battery_percentage"
         android:title="@string/battery_percentage"
         android:summary="@string/battery_percentage_description"
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
-
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"

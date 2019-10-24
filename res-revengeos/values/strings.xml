@@ -107,4 +107,8 @@
     <string name="adj_intensity_title">Intensity</string>
     <string name="adj_contrast_title">Contrast</string>
 
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_tuner_title">Status bar</string>
+    <string name="status_bar_tuner_summary">Customise the status bar</string>
+
 </resources>

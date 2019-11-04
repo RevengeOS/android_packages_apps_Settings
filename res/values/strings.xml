@@ -11339,6 +11339,6 @@
     <string name="work_policy_privacy_settings_summary">Settings managed by your IT admin</string>
 
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Color bucket</string>
+    <string name="theme_customization_systemui_title">Dark theme style</string>
 
 </resources>

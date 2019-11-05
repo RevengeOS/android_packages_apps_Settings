@@ -414,4 +414,6 @@
 
     <!-- System navigation settings illustration height -->
     <dimen name="system_navigation_illustration_height">320dp</dimen>
+
+    <dimen name="picker_circle_preview_size">26dp</dimen>
 </resources>

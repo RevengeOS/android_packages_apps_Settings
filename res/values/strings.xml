@@ -11363,4 +11363,7 @@
     <string name="network_traffic_hidearrow">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
 
+    <string name="themes_category_title">Themes</string>
+    <string name="customization_category_title">Customizations</string>
+
 </resources>

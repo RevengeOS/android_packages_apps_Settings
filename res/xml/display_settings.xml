@@ -53,30 +53,53 @@
         <intent android:action="com.android.settings.LIVEDISPLAY_SETTINGS" />
     </Preference>
 
-    <com.android.settingslib.RestrictedPreference
-        android:key="wallpaper"
-        android:title="@string/wallpaper_settings_title"
-        settings:keywords="@string/keywords_display_wallpaper"
-        settings:useAdminDisabledSummary="true"
-        settings:controller="com.android.settings.display.WallpaperPreferenceController">
-    </com.android.settingslib.RestrictedPreference>
+    <PreferenceCategory
+        android:key="themes_category_labeled"
+        android:title="@string/themes_category_title">
 
+        <SwitchPreference
+            android:key="dark_ui_mode"
+            android:title="@string/dark_ui_mode"
+            settings:keywords="@string/keywords_dark_ui_mode"
+            settings:controller="com.android.settings.display.DarkUIPreferenceController"/>
 
-    <SwitchPreference
-        android:key="dark_ui_mode"
-        android:title="@string/dark_ui_mode"
-        settings:keywords="@string/keywords_dark_ui_mode"
-        settings:controller="com.android.settings.display.DarkUIPreferenceController"/>
+        <ListPreference
+            android:key="android.theme.customization.custom_overlays"
+            android:title="@string/theme_customization_systemui_title"/>
 
-     <ListPreference
-        android:key="android.theme.customization.custom_overlays"
-        android:title="@string/theme_customization_systemui_title"/>
+        <com.android.settingslib.RestrictedPreference
+            android:key="wallpaper"
+            android:title="@string/wallpaper_settings_title"
+            settings:keywords="@string/keywords_display_wallpaper"
+            settings:useAdminDisabledSummary="true"
+            settings:controller="com.android.settings.display.WallpaperPreferenceController">
+        </com.android.settingslib.RestrictedPreference>
 
-     <Preference
-        android:key="statusbar_settings"
-        android:title="@string/statusbar_tuner_title"
-        android:summary="@string/status_bar_tuner_summary"
-        android:fragment="com.revengeos.settings.fragment.StatusBarSettings" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="customization_category_labeled"
+        android:title="@string/customization_category_title">
+
+        <Preference
+            android:key="statusbar_settings"
+            android:title="@string/statusbar_tuner_title"
+            android:summary="@string/status_bar_tuner_summary"
+            android:fragment="com.revengeos.settings.fragment.StatusBarSettings" />
+
+        <Preference
+            android:key="font_size"
+            android:title="@string/title_font_size"
+            android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
+            settings:controller="com.android.settings.display.FontSizePreferenceController" />
+
+        <com.android.settings.display.ScreenZoomPreference
+            android:key="display_settings_screen_zoom"
+            android:title="@string/screen_zoom_title"
+            android:fragment="com.android.settings.display.ScreenZoomSettings"
+            settings:searchable="false"/>
+
+    </PreferenceCategory>
 
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.display.TimeoutListPreference
@@ -112,12 +135,6 @@
         android:title="@string/display_white_balance_title"
         android:summary="@string/display_white_balance_summary"
         settings:controller="com.android.settings.display.DisplayWhiteBalancePreferenceController" />
-
-    <Preference
-        android:key="font_size"
-        android:title="@string/title_font_size"
-        android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
-        settings:controller="com.android.settings.display.FontSizePreferenceController" />
 
     <com.android.settings.display.ScreenZoomPreference
         android:key="display_settings_screen_zoom"

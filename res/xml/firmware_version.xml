@@ -22,6 +22,14 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- RevengeOS -->
+    <Preference
+        android:key="revengeos_version"
+        android:title="@string/revengeos_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.revengeos.settings.preference.deviceinfo.RevengeOSVersionPreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
@@ -60,14 +68,6 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
-
-    <!-- RevengeOS -->
-    <Preference
-        android:key="revengeos_version"
-        android:title="@string/revengeos_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.revengeos.settings.preference.deviceinfo.RevengeOSVersionPreferenceController"/>
 
     <!-- Build -->
     <Preference

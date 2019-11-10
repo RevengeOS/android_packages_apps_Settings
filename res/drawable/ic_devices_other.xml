@@ -27,8 +27,8 @@
           android:endY="3.9308"
           android:endX="20.3442"
           android:type="linear">
-        <item android:offset="0" android:color="#FF17AF96"/>
-        <item android:offset="1" android:color="#FF49EA8B"/>
+        <item android:offset="0" android:color="@*android:color/homepage_connected_device_gradient_start"/>
+        <item android:offset="1" android:color="@*android:color/homepage_connected_device_gradient_end"/>
       </gradient>
     </aapt:attr>
   </path>

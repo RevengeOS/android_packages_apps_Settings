@@ -27,8 +27,8 @@
           android:endY="2.8375"
           android:endX="21.1625"
           android:type="linear">
-        <item android:offset="0" android:color="#FF08A1FF"/>
-        <item android:offset="1" android:color="#FF34F4D3"/>
+        <item android:offset="0" android:color="@*android:color/homepage_storage_gradient_start"/>
+        <item android:offset="1" android:color="@*android:color/homepage_storage_gradient_end"/>
       </gradient>
     </aapt:attr>
   </path>

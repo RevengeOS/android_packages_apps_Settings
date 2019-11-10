@@ -19,17 +19,6 @@
     android:viewportWidth="24"
     android:viewportHeight="24">
   <path
-      android:pathData="M20,8.7V4h-4.7L12,0.7L8.7,4H4v4.7L0.7,12L4,15.3V20h4.7l3.3,3.3l3.3,-3.3H20v-4.7l3.3,-3.3L20,8.7zM18,14.5V18h-3.5L12,20.5L9.5,18H6v-3.5L3.5,12L6,9.5V6h3.5L12,3.5L14.5,6H18v3.5l2.5,2.5L18,14.5zM12,17c2.8,0 5,-2.2 5,-5s-2.2,-5 -5,-5V17z">
-    <aapt:attr name="android:fillColor">
-      <gradient 
-          android:startY="20"
-          android:startX="4"
-          android:endY="4"
-          android:endX="20"
-          android:type="linear">
-        <item android:offset="0" android:color="@*android:color/homepage_display_gradient_start"/>
-        <item android:offset="1" android:color="@*android:color/homepage_display_gradient_end"/>
-      </gradient>
-    </aapt:attr>
-  </path>
+      android:fillColor="@*android:color/homepage_display_gradient"
+      android:pathData="M20,8.7V4h-4.7L12,0.7L8.7,4H4v4.7L0.7,12L4,15.3V20h4.7l3.3,3.3l3.3,-3.3H20v-4.7l3.3,-3.3L20,8.7zM18,14.5V18h-3.5L12,20.5L9.5,18H6v-3.5L3.5,12L6,9.5V6h3.5L12,3.5L14.5,6H18v3.5l2.5,2.5L18,14.5zM12,17c2.8,0 5,-2.2 5,-5s-2.2,-5 -5,-5V17z"/>
 </vector>

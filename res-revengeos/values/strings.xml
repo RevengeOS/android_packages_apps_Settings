@@ -121,4 +121,9 @@
     <string name="privacy_chip_visibility">Hide privacy icons on statusbar and qs</string>
     <string name="privacy_chip_visibility_summary">Hide icons indicating that location/camera/microphone are beign used</string>
 
+    <string name="customization_category_title">customization</string>
+    <string name="xscreen_category_title">screen</string>
+    <string name="brightness_category_title">brightness</string>
+    <string name="themes_category_title">themes</string>
+
 </resources>

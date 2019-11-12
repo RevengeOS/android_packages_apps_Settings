@@ -63,6 +63,12 @@
         android:summary="@string/show_password_summary"
         settings:controller="com.android.settings.security.ShowPasswordPreferenceController"/>
 
+    <com.revengeos.settings.preference.SystemSettingSwitchPreference
+        android:key="privacy_chip_view"
+        android:title="@string/privacy_chip_visibility"
+        android:summary="@string/privacy_chip_visibility_summary"
+        android:defaultValue="false"/>
+
     <!-- On lock screen notifications -->
     <com.android.settings.RestrictedListPreference
         android:key="privacy_lock_screen_notifications"

@@ -117,4 +117,8 @@
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Phone ringtone - SIM 2</string>
 
+    <!-- Privacy chip view -->
+    <string name="privacy_chip_visibility">Hide privacy icons on statusbar and qs</string>
+    <string name="privacy_chip_visibility_summary">Hide icons indicating that location/camera/microphone are beign used</string>
+
 </resources>

@@ -126,4 +126,9 @@
     <string name="brightness_category_title">brightness</string>
     <string name="themes_category_title">themes</string>
 
+
+    <!-- Weather -->
+    <string name="weather_settings_title">Weather</string>
+    <string name="weather_settings_summary">Customise the weather</string>
+
 </resources>

@@ -130,6 +130,12 @@
             android:fragment="com.revengeos.settings.fragment.StatusBarSettings" />
 
         <Preference
+            android:key="weather_settings"
+            android:title="@string/weather_settings_title"
+            android:summary="@string/weather_settings_summary"
+            android:fragment="com.revengeos.settings.fragment.WeatherSettings" />
+
+        <Preference
             android:key="font_size"
             android:title="@string/title_font_size"
             android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"

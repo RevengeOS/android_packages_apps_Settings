@@ -46,6 +46,12 @@
             android:key="owner_info_settings"
             android:title="@string/owner_info_settings_title"
             android:summary="@string/owner_info_settings_summary" />
+        
+        <Preference
+            android:key="lockscreen_media_settings"
+            android:title="@string/lockscreen_media_settings_title"
+            android:summary="@string/lockscreen_media_settings_summary"
+            android:fragment="com.revengeos.settings.fragment.LockscreenMediaSettings" />
 
         <SwitchPreference
             android:key="security_setting_lockdown_enabled"

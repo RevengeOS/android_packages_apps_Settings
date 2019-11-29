@@ -132,4 +132,8 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total RAM</string>
 
+    <!-- Media art -->
+    <string name="lockscreen_media_settings_title">Media art</string>
+    <string name="lockscreen_media_settings_summary">Adjust the media cover art</string>
+
 </resources>

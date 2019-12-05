@@ -130,6 +130,12 @@
             android:fragment="com.revengeos.settings.fragment.StatusBarSettings" />
 
         <Preference
+            android:key="ambient_light_settings"
+            android:title="@string/ambient_light_title"
+            android:summary="@string/ambient_light_summary"
+            android:fragment="com.revengeos.settings.fragment.AmbientLightSettings" />
+
+        <Preference
             android:key="font_size"
             android:title="@string/title_font_size"
             android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"

@@ -136,4 +136,8 @@
     <string name="lockscreen_media_settings_title">Media art</string>
     <string name="lockscreen_media_settings_summary">Adjust the media cover art and visualizer</string>
 
+     <!-- Ambient edge lighting -->
+    <string name="ambient_light_title">Ambient light</string>
+    <string name="ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
+
 </resources>

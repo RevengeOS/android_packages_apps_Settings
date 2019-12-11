@@ -140,4 +140,7 @@
     <string name="ambient_light_title">Ambient light</string>
     <string name="ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
 
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+
 </resources>

@@ -30,6 +30,13 @@
         settings:enableCopying="true"
         settings:controller="com.revengeos.settings.preference.deviceinfo.RevengeOSVersionPreferenceController"/>
 
+    <Preference
+        android:key="revengeos_build_id"
+        android:title="@string/revengeos_build_id"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.revengeos.settings.preference.deviceinfo.RevengeOSBuildIdPreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"

@@ -172,6 +172,12 @@
           android:key="touch_sounds"
           android:title="@string/touch_sounds_title"/>
 
+        <!--Screenshot sounds-->   
+        <com.revengeos.settings.preference.SystemSettingSwitchPreference
+            android:key="screenshot_sound"
+            android:title="@string/screenshot_sound_title"
+            android:defaultValue="true" />
+
         <!-- Vibrate on touch -->
         <SwitchPreference
           android:key="vibrate_on_touch"

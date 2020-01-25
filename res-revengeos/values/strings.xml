@@ -60,7 +60,11 @@
     <string name="lockscreen_media_art_title">Media art</string>
     <string name="lockscreen_media_art_summary">Toggle visibility of media art</string>
 
-	<!-- Pocket mode -->
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert Navigation Bar layout</string>
+    <string name="navbar_invert_info">This will swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+
+    <!-- Pocket mode -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 

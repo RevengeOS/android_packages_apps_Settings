@@ -66,11 +66,11 @@
         android:title="@string/ambient_display_category_triggers"
         android:order="1000">
 
-        <com.android.settingslib.RestrictedSwitchPreference
-            android:key="ambient_display_always_on"
+        <com.android.settingslib.RestrictedPreference
+            android:key="ambient_display"
             android:title="@string/doze_always_on_title"
-            android:summary="@string/doze_always_on_summary"
-            settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController"
+            android:fragment="com.android.settings.display.AmbientDisplaySettings"
+            settings:controller="com.android.settings.display.AmbientDisplayParentPreferenceController"
             settings:userRestriction="no_ambient_display" />
 
         <Preference

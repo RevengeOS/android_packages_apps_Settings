@@ -87,4 +87,10 @@
         android:summary="@string/swipe_to_screenshot_gesture_summary"
         android:defaultValue="true" />
 
+    <com.revengeos.settings.preference.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/double_tap_sleep_gesture_title"
+        android:summary="@string/double_tap_sleep_gesture_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>

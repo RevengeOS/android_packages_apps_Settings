@@ -150,4 +150,8 @@
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="gesture_pill_message">Hide the navigation bar pill for seamless fullscreen gestures.</string>
 
+    <!-- Double tap to sleep on status bar -->
+    <string name="double_tap_sleep_gesture_title">Double tap on status bar</string>
+    <string name="double_tap_sleep_gesture_summary">Sleep when status bar is double tapped</string>
+
 </resources>

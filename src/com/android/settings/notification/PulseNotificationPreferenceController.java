@@ -76,7 +76,7 @@ public class PulseNotificationPreferenceController extends TogglePreferenceContr
 
     @Override
     public boolean isChecked() {
-        return Settings.System.getInt(mContext.getContentResolver(), NOTIFICATION_LIGHT_PULSE, OFF)
+        return Settings.System.getInt(mContext.getContentResolver(), NOTIFICATION_LIGHT_PULSE, ON)
                 == ON;
     }
 

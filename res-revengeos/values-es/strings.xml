@@ -18,20 +18,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Localice el sensor de huella dactilar en la parte frontal del teléfono.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Localice el sensor de huellas dactilares en el lado izquierdo del teléfono.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Localice el sensor de huellas dactilares en la parte derecha de su teléfono.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Localice el sensor de huella digital en la parte frontal de su dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Localice el sensor de huella digital en el lado izquierdo de su dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Localice el sensor de huellas dactilares en la parte derecha de su dispositivo.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Localice el sensor de huella digital en la parte frontal de su dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Localice el sensor de huella digital en el lado izquierdo de su dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Localice el sensor de huellas dactilares en la parte derecha de su dispositivo.</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
+    <string name="custom_light_title">Color claro</string>
+    <string name="custom_light_on_time_title">Tiempo de encendido durante el pulso led (ms)</string>
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
     <string name="value_equals_default">def</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->

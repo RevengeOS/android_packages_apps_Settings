@@ -18,119 +18,119 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">फिंगरप्रिंट सेंसर को अपने फोन के फ्रंट पर लगाएं</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">अपने फोन के बायीं ओर फिंगरप्रिंट सेंसर का पता लगाएँ।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">अपने फोन के दाईं ओर फिंगरप्रिंट सेंसर का पता लगाएँ।</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">अपने फोन के मोर्चे पर फिंगरप्रिंट सेंसर का पता लगाएँ।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">अपने फोन के बाईं ओर फिंगरप्रिंट सेंसर का पता लगाएँ।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">अपने डिवाइस के दाईं ओर फिंगरप्रिंट सेंसर का पता लगाएँ।</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">अपने डिवाइस के दाईं ओर फिंगरप्रिंट सेंसर का पता लगाएँ।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">अपने टेबलेट के बाईं ओर फ़िंगरप्रिंट सेंसर की स्थिति जानें।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">अपने टेबलेट के दाईं ओर फ़िंगरप्रिंट सेंसर की स्थिति जानें।</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
+    <string name="custom_light_title">हल्का रंग</string>
+    <string name="custom_light_on_time_title">एलईडी पल्स के दौरान समय पर प्रकाश (एमएस)</string>
+    <string name="custom_light_off_time_title">एलईडी बंद समय के दौरान एलईडी पल्स (एमएस) \"</string>
+    <string name="value_equals_default">डीईएफ़</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">Show CPU info</string>
+    <string name="show_cpu_info">सीपीयू कि जानकारी दिखाएँ</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+    <string name="show_cpu_info_summary">स्क्रीन ओवरले वर्तमान सीपीयू जानकारी दिखा रहा है</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">त्वरित अनलॉक</string>
+    <string name="unlock_quick_unlock_control_summary">सही पिन / पासवर्ड दर्ज करने पर स्वचालित रूप से अनलॉक करें</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">स्क्रीनशॉट के लिये स्वाइप करें</string>
+    <string name="swipe_to_screenshot_gesture_summary">स्क्रीनशॉट लेने के लिए तीन उंगलियों को स्वाइप करें</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">बंद</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
-    <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
-    <string name="live_display_color_profile_cinema_title">Cinema</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
-    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
-    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
-    <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
-    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
-    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
+    <string name="live_display_summary">पठनीयता में सुधार और आंखों पर जोर कम करने के लिए दिन और परिवेश की स्थितियों के आधार पर अपनी स्क्रीन का अनुकूलन करें</string>
+    <string name="live_display_mode">प्रदर्शन प्रणाली</string>
+    <string name="live_display_color_temperature_title">रंग का तापमान</string>
+    <string name="live_display_color_temperature_summary">दिन: &lt;xliff:g id ="दिन_का_तापमान"&gt;%1$d&lt;/xliff: g&gt;K रात: &lt;xliff:g id="रात_का_तापमान"&gt;%2$d &lt;/xliff:g&gt;K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="डिग्री">%1$d</xliff:g>K</string>
+    <string name="live_display_day">दिन</string>
+    <string name="live_display_night">रात</string>
+    <string name="live_display_outdoor_mode_title">स्वचालित आउटडोर मोड</string>
+    <string name="live_display_outdoor_mode_summary">तेज धूप के तहत चमक और संतृप्ति को स्वचालित रूप से बढ़ाएं</string>
+    <string name="live_display_low_power_title">बिजली की खपत कम करें</string>
+    <string name="live_display_low_power_summary">गिरावट के बिना सबसे कम बिजली की खपत के लिए प्रदर्शन को समायोजित करें</string>
+    <string name="live_display_enhance_color_title">रंग बढ़ाएं</string>
+    <string name="live_display_enhance_color_summary">मांस टन, दृश्यों, और अन्य छवियों के रंग जीवंतता में सुधार</string>
+    <string name="live_display_color_profile_title">रंग प्रोफ़ाइल</string>
+    <string name="live_display_color_profile_standard_title">मानक</string>
+    <string name="live_display_color_profile_standard_summary">सटीक रंग और चमकदार गोरे</string>
+    <string name="live_display_color_profile_natural_title">प्राकृतिक</string>
+    <string name="live_display_color_profile_natural_summary">यथार्थवादी रंग और मांस टन</string>
+    <string name="live_display_color_profile_dynamic_title">गतिशील</string>
+    <string name="live_display_color_profile_dynamic_summary">उन्नत रंग और चमकदार गोरे</string>
+    <string name="live_display_color_profile_cinema_title">सिनेमा</string>
+    <string name="live_display_color_profile_cinema_summary">वीडियो के लिए बिल्कुल सही रंग प्रजनन</string>
+    <string name="live_display_color_profile_astronomy_title">खगोल</string>
+    <string name="live_display_color_profile_astronomy_summary">रात की दृष्टि के संरक्षण के लिए गहरा लाल</string>
+    <string name="live_display_color_profile_photography_title">फोटोग्राफी</string>
+    <string name="live_display_color_profile_photography_summary">तस्वीरों के लिए बिल्कुल सही रंग प्रजनन</string>
+    <string name="live_display_color_profile_basic_title">बुनियादी</string>
+    <string name="live_display_color_profile_basic_summary">गैर-अंशांकित प्रदर्शन का उपयोग करें</string>
+    <string name="live_display_color_profile_adaptive_title">अनुकूल</string>
+    <string name="live_display_color_profile_adaptive_summary">रंग परिवेश की स्थितियों के अनुकूल होते हैं</string>
+    <string name="live_display_color_profile_reading_title">पढ़ना</string>
+    <string name="live_display_color_profile_reading_summary">कम आँख तनाव के लिए गर्म रंग</string>
+    <string name="live_display_color_profile_srgb_title">एसआरजिबी</string>
+    <string name="live_display_color_profile_srgb_summary">sRGB रंगीन स्थान के लिए सटीक रंग</string>
+    <string name="live_display_color_profile_dci_p3_title">डीसीआई-पी 3</string>
+    <string name="live_display_color_profile_dci_p3_summary">रंग DCI-P3 रंग स्थान के लिए सटीक</string>
+    <string name="live_display_reading_mode_title">पढ़नेका मोड</string>
+    <string name="live_display_reading_mode_summary">दीर्घकालिक पढ़ने के लिए ग्रेस्केल मोड</string>
+    <string name="color_calibration_title">रंग अंशांकन</string>
+    <string name="color_calibration_summary">ऑन-स्क्रीन रंगों को कैलिब्रेट करें</string>
+    <string name="color_red_title">लाल</string>
+    <string name="color_green_title">हरा</string>
+    <string name="color_blue_title">निला</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">Picture adjustment</string>
-    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
-    <string name="adj_hue_title">Hue</string>
-    <string name="adj_saturation_title">Saturation</string>
-    <string name="adj_intensity_title">Intensity</string>
-    <string name="adj_contrast_title">Contrast</string>
+    <string name="picture_adjustment_title">चित्र समायोजन</string>
+    <string name="picture_adjustment_summary">ह्यू, संतृप्ति, तीव्रता और कंट्रास्ट समायोजित करें</string>
+    <string name="adj_hue_title">रंग</string>
+    <string name="adj_saturation_title">परिपूर्णता</string>
+    <string name="adj_intensity_title">तीव्रता</string>
+    <string name="adj_contrast_title">कौनट्रास्ट</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_tuner_title">Status bar</string>
-    <string name="status_bar_tuner_summary">Customise the status bar</string>
+    <string name="statusbar_tuner_title">स्टेटस बार</string>
+    <string name="status_bar_tuner_summary">स्थिति बार कस्टमाइज़ करें</string>
     <!-- Privacy chip view -->
-    <string name="privacy_chip_visibility">Hide privacy icons</string>
-    <string name="privacy_chip_visibility_summary">Hide location, camera and microphone privacy icons</string>
-    <string name="customization_category_title">customization</string>
-    <string name="xscreen_category_title">screen</string>
-    <string name="brightness_category_title">brightness</string>
-    <string name="themes_category_title">themes</string>
+    <string name="privacy_chip_visibility">गोपनीयता आइकन छिपाएं</string>
+    <string name="privacy_chip_visibility_summary">स्थान, कैमरा और माइक्रोफ़ोन गोपनीयता आइकन छुपाएं</string>
+    <string name="customization_category_title">अनुकूलन</string>
+    <string name="xscreen_category_title">स्क्रीन</string>
+    <string name="brightness_category_title">चमक</string>
+    <string name="themes_category_title">थीम</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">मंच</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">कुल रैम</string>
     <!-- Media art -->
-    <string name="lockscreen_media_settings_title">Media art</string>
-    <string name="lockscreen_media_settings_summary">Adjust the media cover art and visualizer</string>
+    <string name="lockscreen_media_settings_title">मीडिया कला</string>
+    <string name="lockscreen_media_settings_summary">मीडिया कवर आर्ट और विज़ुअलाइज़र को समायोजित करें</string>
     <!-- Ambient edge lighting -->
-    <string name="ambient_light_title">Ambient light</string>
-    <string name="ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="ambient_light_title">परिवेश प्रकाश</string>
+    <string name="ambient_light_summary">नोटिफिकेशन पल्स पर स्क्रीन के साइड किनारों को लाइट अप करें</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">बैटरी का तापमान</string>
     <!-- Back Gesture Height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_low_label">पूर्ण</string>
+    <string name="back_height_high_label">तल</string>
+    <string name="back_options_dialog_title">विकल्प</string>
+    <string name="back_height_message">पीछे की ओर इशारा करने के लिए स्क्रीन की ऊँचाई की मात्रा का उपयोग स्पृश्य क्षेत्र के रूप में किया जाता है</string>
     <!-- Weather -->
-    <string name="weather_settings_title">Weather</string>
-    <string name="weather_settings_summary">Customise the weather</string>
+    <string name="weather_settings_title">मौसम</string>
+    <string name="weather_settings_summary">मौसम को अनुकूलित करें</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="gesture_pill_message">Hide the navigation bar pill for seamless fullscreen gestures.</string>
+    <string name="gesture_pill_message">निर्बाध फुलस्क्रीन इशारों के लिए नेविगेशन बार गोली छिपाएँ।</string>
     <!-- Double tap to sleep on status bar -->
-    <string name="double_tap_sleep_gesture_title">Double tap on status bar</string>
-    <string name="double_tap_sleep_gesture_summary">Sleep when status bar is double tapped</string>
+    <string name="double_tap_sleep_gesture_title">स्टेटस बार पर डबल टैप करें</string>
+    <string name="double_tap_sleep_gesture_summary">स्लीप जब स्टेटस बार डबल टैप किया जाता है</string>
 </resources>

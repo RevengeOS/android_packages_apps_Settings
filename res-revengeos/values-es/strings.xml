@@ -32,105 +32,105 @@
     <!-- Custom light color -->
     <string name="custom_light_title">Color claro</string>
     <string name="custom_light_on_time_title">Tiempo de encendido durante el pulso led (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_off_time_title">Tiempo de apagado durante el pulso led (ms)\"</string>
     <string name="value_equals_default">def</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">Show CPU info</string>
+    <string name="show_cpu_info">Mostrar información de la CPU</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+    <string name="show_cpu_info_summary">Mostrar en pantalla la información actual de la CPU</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se introduce el PIN/contraseña correctamente</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">Deslizar para tomar una captura de pantalla</string>
+    <string name="swipe_to_screenshot_gesture_summary">Desliza tres dedos para tomar una captura de pantalla</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">Cerrar</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">Optimice su pantalla en función de la hora del día y de las condiciones ambientales para mejorar la legibilidad y reducir la fatiga visual</string>
+    <string name="live_display_mode">Modo de visualización</string>
+    <string name="live_display_color_temperature_title">Temperatura del color</string>
+    <string name="live_display_color_temperature_summary">Día: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noche: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
+    <string name="live_display_day">Día</string>
+    <string name="live_display_night">Noche</string>
+    <string name="live_display_outdoor_mode_title">Modo exteriores en automatico</string>
+    <string name="live_display_outdoor_mode_summary">Aumenta el brillo y la saturación automáticamente bajo la luz del sol</string>
+    <string name="live_display_low_power_title">Reduce el consumo de energía</string>
+    <string name="live_display_low_power_summary">Ajustar pantalla para un menor consumo energetico sin producir degradación</string>
+    <string name="live_display_enhance_color_title">Realzar colores</string>
+    <string name="live_display_enhance_color_summary">Colores mas vibrantes en el tono de piel, paisajes y otras imagenes</string>
+    <string name="live_display_color_profile_title">Perfil de color</string>
+    <string name="live_display_color_profile_standard_title">Estándar</string>
+    <string name="live_display_color_profile_standard_summary">Colores precisos y blancos mas brillantes</string>
     <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
+    <string name="live_display_color_profile_natural_summary">Colores y tonos de piel mas realistas</string>
+    <string name="live_display_color_profile_dynamic_title">Dinámico</string>
+    <string name="live_display_color_profile_dynamic_summary">Colores mejorados y blancos mas brillantes</string>
     <string name="live_display_color_profile_cinema_title">Cinema</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
-    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
-    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
+    <string name="live_display_color_profile_cinema_summary">Reproduce perfectamente el color para videos</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomía</string>
+    <string name="live_display_color_profile_astronomy_summary">Rojos intensos para consevar la visión nocturna</string>
+    <string name="live_display_color_profile_photography_title">Fotografía</string>
+    <string name="live_display_color_profile_photography_summary">Reproduce perfectamente el color para fotos</string>
+    <string name="live_display_color_profile_basic_title">Básico</string>
+    <string name="live_display_color_profile_basic_summary">Usa la pantalla sin calibrar</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptable</string>
+    <string name="live_display_color_profile_adaptive_summary">Los colores se adaptan a las condiciones ambientales</string>
+    <string name="live_display_color_profile_reading_title">Lectura</string>
+    <string name="live_display_color_profile_reading_summary">Colores más cálidos para reducir la fatiga visual</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
+    <string name="live_display_color_profile_srgb_summary">Colores mas precisos segun el espacio de color sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
-    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colores mas precisos segun el espacio de color DCI-P3</string>
+    <string name="live_display_reading_mode_title">Modo lectura</string>
+    <string name="live_display_reading_mode_summary">Modo en una escala de grises para una lectura a largo plazo</string>
+    <string name="color_calibration_title">Calibración de color</string>
+    <string name="color_calibration_summary">Calibra los colores en pantalla</string>
+    <string name="color_red_title">Rojo</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Azul</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">Picture adjustment</string>
-    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
-    <string name="adj_hue_title">Hue</string>
-    <string name="adj_saturation_title">Saturation</string>
-    <string name="adj_intensity_title">Intensity</string>
-    <string name="adj_contrast_title">Contrast</string>
+    <string name="picture_adjustment_title">Ajuste de imagen</string>
+    <string name="picture_adjustment_summary">Ajusta el tono, saturación, intensidad y contraste</string>
+    <string name="adj_hue_title">Tono</string>
+    <string name="adj_saturation_title">Saturación</string>
+    <string name="adj_intensity_title">Intensidad</string>
+    <string name="adj_contrast_title">Contraste</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_tuner_title">Status bar</string>
-    <string name="status_bar_tuner_summary">Customise the status bar</string>
+    <string name="statusbar_tuner_title">Barra de estado</string>
+    <string name="status_bar_tuner_summary">Personaliza la barra de estado</string>
     <!-- Privacy chip view -->
-    <string name="privacy_chip_visibility">Hide privacy icons</string>
-    <string name="privacy_chip_visibility_summary">Hide location, camera and microphone privacy icons</string>
-    <string name="customization_category_title">customization</string>
-    <string name="xscreen_category_title">screen</string>
-    <string name="brightness_category_title">brightness</string>
-    <string name="themes_category_title">themes</string>
+    <string name="privacy_chip_visibility">Oculta los iconos de privacidad</string>
+    <string name="privacy_chip_visibility_summary">Oculta los iconos de privacidad de ubicación, cámara y micrófono</string>
+    <string name="customization_category_title">personalización</string>
+    <string name="xscreen_category_title">pantalla</string>
+    <string name="brightness_category_title">brillo</string>
+    <string name="themes_category_title">temas</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">Plataforma</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">RAM total</string>
     <!-- Media art -->
-    <string name="lockscreen_media_settings_title">Media art</string>
-    <string name="lockscreen_media_settings_summary">Adjust the media cover art and visualizer</string>
+    <string name="lockscreen_media_settings_title">Arte del contenido multimedia</string>
+    <string name="lockscreen_media_settings_summary">Ajusta la carátula del contenido multimedia y del visualizador</string>
     <!-- Ambient edge lighting -->
-    <string name="ambient_light_title">Ambient light</string>
-    <string name="ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="ambient_light_title">Luz ambiente</string>
+    <string name="ambient_light_summary">Ilumina los bordes laterales de la pantalla al llegar una notificación</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Temperatura de la batería</string>
     <!-- Back Gesture Height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_low_label">Completo</string>
+    <string name="back_height_high_label">Abajo</string>
+    <string name="back_options_dialog_title">Opciones</string>
+    <string name="back_height_message">Cantidad de altura utilizada en la pantalla como región táctil para el gesto de atrás.</string>
     <!-- Weather -->
-    <string name="weather_settings_title">Weather</string>
-    <string name="weather_settings_summary">Customise the weather</string>
+    <string name="weather_settings_title">Clima</string>
+    <string name="weather_settings_summary">Personaliza el clima</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="gesture_pill_message">Hide the navigation bar pill for seamless fullscreen gestures.</string>
+    <string name="gesture_pill_message">Ocultar la pequeña barra blanca de navegación para tener gestos a pantalla completa.</string>
     <!-- Double tap to sleep on status bar -->
-    <string name="double_tap_sleep_gesture_title">Double tap on status bar</string>
-    <string name="double_tap_sleep_gesture_summary">Sleep when status bar is double tapped</string>
+    <string name="double_tap_sleep_gesture_title">Doble toque en la barra de estado</string>
+    <string name="double_tap_sleep_gesture_summary">Suspender cuando la barra de estado es pulsada dos veces</string>
 </resources>

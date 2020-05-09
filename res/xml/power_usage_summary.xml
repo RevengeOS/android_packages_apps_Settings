@@ -52,6 +52,12 @@
         settings:controller="com.revengeos.settings.controller.BatteryLightSettingsController"
         android:title="@string/battery_light_settings" />
 
+    <Preference
+        android:fragment="com.revengeos.settings.fragment.BatteryHealthSettings"
+        android:key="battery_health_key"
+        android:title="@string/battery_health_title"
+        android:summary="@string/battery_health_summary" />
+
     <SwitchPreference
         android:key="battery_percentage"
         android:title="@string/battery_percentage"

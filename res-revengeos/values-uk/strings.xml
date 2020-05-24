@@ -18,119 +18,119 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Знайдіть сканер відбитка пеніса на переді вашого гiвнофона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Знайдіть сканер відбитка пеніса на лівій сторонi вашого гiвнофона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Знайдіть сканер відбитка пеніса на правій стороні вашого гiвнофона.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Знайдіть сканер відбитка пеніса на переді вашой хуйни.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Знайдіть сканер відбитка пеніса на лівій сторонi вашой хуйни.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Знайдіть сканер відбитка пеніса на правiй сторонi вашой хуйни.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Знайдіть сканер відбитка пеніса спереду вашої дошки для овочів.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Знайдіть сканер відбитка пеніса на лівій сторонi вашой дошки для овочів.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Знайдіть сканер відбитка пеніса на правій стороні вашой дошки для овочів.</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
+    <string name="custom_light_title">Хто прочитав той здохне</string>
+    <string name="custom_light_on_time_title">ЛГБТ підсвічування включена (мікропіські)</string>
+    <string name="custom_light_off_time_title">ЛГБТ підсвічування вимкнене (мікропіські)</string>
+    <string name="value_equals_default">хуй</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">Show CPU info</string>
+    <string name="show_cpu_info">Показати викачане ЦП</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+    <string name="show_cpu_info_summary">Показати викачане ЦП поверх всіх додатків</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Швидке видалення прошивки</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматично видаляти прошивку коли введений пеніс в жопу</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">Провести щоб сфотографувати песюн</string>
+    <string name="swipe_to_screenshot_gesture_summary">Провести трьома пальцями щоб сфотографувати песюн</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">Мінько привіт, іншим співчуваю</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">Видалити Revenge OS щоб знизити втому очей від цього шматка гівна</string>
+    <string name="live_display_mode">Режим гівна</string>
+    <string name="live_display_color_temperature_title">Пиздуй на завод ебаніще</string>
+    <string name="live_display_color_temperature_summary">Gat: <xliff:g id="day_temperature">%1$d</xliff:g>K  Straight: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
-    <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
-    <string name="live_display_color_profile_cinema_title">Cinema</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
-    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
-    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
-    <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
-    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
-    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
+    <string name="live_display_day">Gay</string>
+    <string name="live_display_night">Straight</string>
+    <string name="live_display_outdoor_mode_title">Автоматичний режим гівна</string>
+    <string name="live_display_outdoor_mode_summary">Збільшувати нагрів при знаходженні в гей-клубі</string>
+    <string name="live_display_low_power_title">Зменшувати нагрів при знаходженні в гей-клубі</string>
+    <string name="live_display_low_power_summary">Змусити дисплей дивитися меми та деградувати</string>
+    <string name="live_display_enhance_color_title">Встановити гейському прапор на шпалери</string>
+    <string name="live_display_enhance_color_summary">Все одно це ніхто не читає, так що підпишись на Redmi Guys</string>
+    <string name="live_display_color_profile_title">Профіль порнхаб</string>
+    <string name="live_display_color_profile_standard_title">Анал з чорної красунею порно відео</string>
+    <string name="live_display_color_profile_standard_summary">Яскраві кольори і свіжі жалюзі</string>
+    <string name="live_display_color_profile_natural_title">Не ти</string>
+    <string name="live_display_color_profile_natural_summary">Яскраві кольори і свіжі жалюзі</string>
+    <string name="live_display_color_profile_dynamic_title">Колонка JBL</string>
+    <string name="live_display_color_profile_dynamic_summary">Яскраві кольори і свіжі жалюзі</string>
+    <string name="live_display_color_profile_cinema_title">MKV з торрента</string>
+    <string name="live_display_color_profile_cinema_summary">Передача кольору для зйомки порно</string>
+    <string name="live_display_color_profile_astronomy_title">Астрологія (Тамара Глоба)</string>
+    <string name="live_display_color_profile_astronomy_summary">Глибокий червоний колір для зйомки порно в важких умовах</string>
+    <string name="live_display_color_profile_photography_title">Порнографія</string>
+    <string name="live_display_color_profile_photography_summary">Передача кольору для порнографії</string>
+    <string name="live_display_color_profile_basic_title">Овочевої бази</string>
+    <string name="live_display_color_profile_basic_summary">Використовувати дисплей для перегляду порно</string>
+    <string name="live_display_color_profile_adaptive_title">АК-47</string>
+    <string name="live_display_color_profile_adaptive_summary">Кольори адаптуються під тип порно</string>
+    <string name="live_display_color_profile_reading_title">Читання хентая</string>
+    <string name="live_display_color_profile_reading_summary">Більш теплий процесор для прискорення поломки</string>
+    <string name="live_display_color_profile_srgb_title">рЛГБТ</string>
+    <string name="live_display_color_profile_srgb_summary">Кольори відповідають рЛГБТ</string>
+    <string name="live_display_color_profile_dci_p3_title">Хуйня для чуханов и пидорасов нахуй</string>
+    <string name="live_display_color_profile_dci_p3_summary">t.me/RedmiGuys</string>
+    <string name="live_display_reading_mode_title">Режим читання хентая</string>
+    <string name="live_display_reading_mode_summary">Чорно-білий режим для чорно-білого порно</string>
+    <string name="color_calibration_title">Калібрування хуя</string>
+    <string name="color_calibration_summary">Калібрувати наекранний член</string>
+    <string name="color_red_title">Сасний</string>
+    <string name="color_green_title">Грін</string>
+    <string name="color_blue_title">Блакитний</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">Picture adjustment</string>
-    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
-    <string name="adj_hue_title">Hue</string>
-    <string name="adj_saturation_title">Saturation</string>
-    <string name="adj_intensity_title">Intensity</string>
-    <string name="adj_contrast_title">Contrast</string>
+    <string name="picture_adjustment_title">Оптимізація гівна</string>
+    <string name="picture_adjustment_summary">Підлаштувати пеніс, порнхаб і ручку-самодрочку</string>
+    <string name="adj_hue_title">Хуй</string>
+    <string name="adj_saturation_title">Пизда</string>
+    <string name="adj_intensity_title">Джiгурда</string>
+    <string name="adj_contrast_title">Хуета</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_tuner_title">Status bar</string>
-    <string name="status_bar_tuner_summary">Customise the status bar</string>
+    <string name="statusbar_tuner_title">Панель відсмоктування</string>
+    <string name="status_bar_tuner_summary">Налаштувати панель відсмоктування</string>
     <!-- Privacy chip view -->
-    <string name="privacy_chip_visibility">Hide privacy icons</string>
-    <string name="privacy_chip_visibility_summary">Hide location, camera and microphone privacy icons</string>
-    <string name="customization_category_title">customization</string>
-    <string name="xscreen_category_title">screen</string>
-    <string name="brightness_category_title">brightness</string>
-    <string name="themes_category_title">themes</string>
+    <string name="privacy_chip_visibility">Приховати іконки СБУ</string>
+    <string name="privacy_chip_visibility_summary">Приховати іконки порнхаба, редмігайс і СБУ</string>
+    <string name="customization_category_title">пiсос про</string>
+    <string name="xscreen_category_title">еКАРАН</string>
+    <string name="brightness_category_title">яскравість порно</string>
+    <string name="themes_category_title">види порно</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">Шаурма з вокзалу</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">Нахуй ти оперативу спиздил, ебаніще?</string>
     <!-- Media art -->
-    <string name="lockscreen_media_settings_title">Media art</string>
-    <string name="lockscreen_media_settings_summary">Adjust the media cover art and visualizer</string>
+    <string name="lockscreen_media_settings_title">Порнографічне мистецтво</string>
+    <string name="lockscreen_media_settings_summary">Налаштування порнхаба і чорних красунь</string>
     <!-- Ambient edge lighting -->
-    <string name="ambient_light_title">Ambient light</string>
-    <string name="ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="ambient_light_title">Мінько смокчи хуй</string>
+    <string name="ambient_light_summary">Підсвічувати камеру при зйомці порно</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Температура хуя</string>
     <!-- Back Gesture Height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_low_label">Повна</string>
+    <string name="back_height_high_label">Пiсос</string>
+    <string name="back_options_dialog_title">Зайоби</string>
+    <string name="back_height_message">Скільки чорних красунь в порно.</string>
     <!-- Weather -->
-    <string name="weather_settings_title">Weather</string>
-    <string name="weather_settings_summary">Customise the weather</string>
+    <string name="weather_settings_title">Температура в студії браззерс</string>
+    <string name="weather_settings_summary">Змінити порностудію</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="gesture_pill_message">Hide the navigation bar pill for seamless fullscreen gestures.</string>
+    <string name="gesture_pill_message">Приховати панель хуя при навігації в браззерс.</string>
     <!-- Double tap to sleep on status bar -->
-    <string name="double_tap_sleep_gesture_title">Double tap on status bar</string>
-    <string name="double_tap_sleep_gesture_summary">Sleep when status bar is double tapped</string>
+    <string name="double_tap_sleep_gesture_title">Два рази відсмоктати</string>
+    <string name="double_tap_sleep_gesture_summary">Спати після зйомки порно</string>
 </resources>

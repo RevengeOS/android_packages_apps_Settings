@@ -23,16 +23,16 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Vyhledejte snímač otisku prstů na pravé straně telefonu.</string>
     <!-- Fingerprint location message - generic -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Vyhledejte snímač otisku prstů na přední straně zařízení.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Vyhledejte snímač otisku prstů na levé straně zařízení.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Vyhledejte snímač otisku prstů na pravé straně telefonu.</string>
     <!-- Fingerprint location message - tablet -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Vyhledejte snímač otisku prstů na přední straně tabletu.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Vyhledejte snímač otisku prstů na levé straně tabletu.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Vyhledejte snímač otisku prstů na pravé straně tabletu.</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Barva notifikační diody</string>
     <string name="custom_light_on_time_title">Doba zapnutí notifikační diody během pulsování (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_off_time_title">Doba vypnutí notifikační diody během pulsování (ms)\"</string>
     <string name="value_equals_default">Výchozí</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">Zobrazit informace o CPU</string>
@@ -117,7 +117,7 @@
     <string name="lockscreen_media_settings_summary">Upravit obal alba a vizualizér</string>
     <!-- Ambient edge lighting -->
     <string name="ambient_light_title">Ambientní světlo</string>
-    <string name="ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="ambient_light_summary">Rozsvítit boční okraje displeje při příchozím oznámení</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Teplota baterie</string>
     <!-- Back Gesture Height -->

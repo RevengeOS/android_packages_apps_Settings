@@ -133,4 +133,6 @@
     <!-- Double tap to sleep on status bar -->
     <string name="double_tap_sleep_gesture_title">Doble toque en la barra de estado</string>
     <string name="double_tap_sleep_gesture_summary">Suspender cuando la barra de estado es pulsada dos veces</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Auriculares guardados</string>
 </resources>

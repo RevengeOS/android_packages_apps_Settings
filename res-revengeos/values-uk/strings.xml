@@ -133,4 +133,6 @@
     <!-- Double tap to sleep on status bar -->
     <string name="double_tap_sleep_gesture_title">Два рази відсмоктати</string>
     <string name="double_tap_sleep_gesture_summary">Спати після зйомки порно</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>

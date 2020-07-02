@@ -133,4 +133,6 @@
     <!-- Double tap to sleep on status bar -->
     <string name="double_tap_sleep_gesture_title">Double appui sur la barre d\'état</string>
     <string name="double_tap_sleep_gesture_summary">Mettre en veille lors du double appui sur la barre d\'état</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>

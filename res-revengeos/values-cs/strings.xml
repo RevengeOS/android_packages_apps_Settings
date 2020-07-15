@@ -134,5 +134,5 @@
     <string name="double_tap_sleep_gesture_title">Dvojím poklepáním na stavovou lištu</string>
     <string name="double_tap_sleep_gesture_summary">Uspat při dvojitém klepnutí na stavovou lištu</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Uložené sluchátka</string>
 </resources>

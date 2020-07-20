@@ -18,7 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Telefonun önündeki parmak izi sensörünü bulunuz.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
     <!-- Fingerprint location message - generic -->
@@ -45,16 +45,16 @@
     <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
     <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">Kapat</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
     <string name="live_display_mode">Display mode</string>
     <string name="live_display_color_temperature_title">Color temperature</string>
     <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
+    <string name="live_display_day">Gün</string>
+    <string name="live_display_night">Gece</string>
+    <string name="live_display_outdoor_mode_title">Otomatik dış mekan modu</string>
     <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
     <string name="live_display_low_power_title">Reduce power consumption</string>
     <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>

@@ -48,11 +48,6 @@ public class BatteryHealthSettings extends SettingsPreferenceFragment implements
     private static final String KEY_CURRENT_BATTERY_CAPACITY = "current_battery_capacity";
     private static final String KEY_DESIGNED_BATTERY_CAPACITY = "designed_battery_capacity";
 
-    private static final String FILENAME_BATTERY_DESIGN_CAPACITY =
-            "/sys/class/power_supply/bms/charge_full_design";
-    private static final String FILENAME_BATTERY_CURRENT_CAPACITY =
-            "/sys/class/power_supply/bms/charge_full";
-
     PowerGaugePreference mCurrentBatteryCapacity;
     PowerGaugePreference mDesignedBatteryCapacity;
 
@@ -66,8 +61,8 @@ public class BatteryHealthSettings extends SettingsPreferenceFragment implements
                 KEY_CURRENT_BATTERY_CAPACITY);
         mDesignedBatteryCapacity = (PowerGaugePreference) findPreference(
                 KEY_DESIGNED_BATTERY_CAPACITY);
-        mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(FILENAME_BATTERY_CURRENT_CAPACITY));
-        mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(FILENAME_BATTERY_DESIGN_CAPACITY));
+        mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(getResources().getString(R.string.config_batCurCap)));
+        mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(getResources().getString(R.string.config_batDesCap)));
     }
 
     @Override

@@ -135,4 +135,14 @@
     <string name="double_tap_sleep_gesture_summary">Sleep when status bar is double tapped</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_idle_title">Extended idle</string>
+    <string name="aggressive_idle_summary">Reduce device wake ups and reduce the time required to enter idle state</string>
+    <string name="aggressive_standby_title">Aggressive standby</string>
+    <string name="aggressive_standby_summary">Restrict apps from running in background</string>
+    <!-- Doze on charge -->
+    <string name="ambient_display_off_summary">Off</string>
+    <string name="ambient_display_on_charge_title">While charging</string>
+    <string name="ambient_display_always_title">Always</string>
+    <string name="ambient_display_screen_summary">Show time, notification icons, and other info</string>
 </resources>

@@ -41,6 +41,12 @@
         settings:controller="com.android.settings.gestures.DoubleTapPowerPreferenceController" />
 
     <Preference
+        android:key="gesture_double_tap"
+        android:title="@string/double_tap_title"
+        android:summary="@string/double_tap_summary"
+        android:fragment="com.revengeos.settings.fragment.DoubleTapSettings" />
+
+    <Preference
         android:key="gesture_double_twist_input_summary"
         android:title="@string/double_twist_for_camera_mode_title"
         android:fragment="com.android.settings.gestures.DoubleTwistGestureSettings"

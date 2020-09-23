@@ -54,6 +54,11 @@
         android:fragment="com.android.settings.display.AutoBrightnessSettings"
         settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
 
+    <Preference
+        android:key="status_bar_settings"
+        android:title="@string/status_bar_title"
+        android:fragment="com.revengeos.settings.fragment.StatusBarSettings"/>
+
     <com.android.settingslib.RestrictedPreference
         android:key="wallpaper"
         android:title="@string/wallpaper_settings_title"

@@ -56,4 +56,8 @@
     <string name="icon_tuner_title">Icon tuner</string>
     <string name="icon_tuner_summary">Add or remove status bar icons</string>
 
+    <!-- Media art -->
+    <string name="lockscreen_media_art_title">Media art</string>
+    <string name="lockscreen_media_art_summary">Toggle visibility of media art</string>
+
 </resources>

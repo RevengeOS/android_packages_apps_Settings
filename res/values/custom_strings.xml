@@ -41,4 +41,8 @@
     <string name="torch_long_press_power_gesture_title">Long press power button for torch</string>
     <string name="torch_long_press_power_gesture_summary">Toggles torch when power button is long pressed while display is off</string>
 
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">FOD recognizing animation</string>
+    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
+
 </resources>

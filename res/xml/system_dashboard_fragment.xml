@@ -53,6 +53,14 @@
         settings:controller="com.android.settings.datetime.DateTimePreferenceController"/>
 
     <Preference
+        android:title="@string/weather_settings"
+        android:icon="@drawable/ic_settings_weather">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.revengeos.simpleweather"
+                android:targetClass="com.revengeos.simpleweather.SettingsActivity" />
+    </Preference>
+
+    <Preference
         android:key="reset_dashboard"
         android:title="@string/reset_dashboard_title"
         android:summary="@string/reset_dashboard_summary"

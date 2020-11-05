@@ -61,9 +61,9 @@
     <string name="live_display_enhance_color_title">Enhance colors</string>
     <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
     <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
-    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_standard_title">標準</string>
+    <string name="live_display_color_profile_standard_summary">精準的顏色與亮白色</string>
+    <string name="live_display_color_profile_natural_title">自然的</string>
     <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
     <string name="live_display_color_profile_dynamic_title">Dynamic</string>
     <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
@@ -73,7 +73,7 @@
     <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
     <string name="live_display_color_profile_photography_title">Photography</string>
     <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
+    <string name="live_display_color_profile_basic_title">基本的</string>
     <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
     <string name="live_display_color_profile_adaptive_title">Adaptive</string>
     <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>

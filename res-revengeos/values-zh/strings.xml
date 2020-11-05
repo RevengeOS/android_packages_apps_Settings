@@ -30,7 +30,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_title">淺色</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
     <string name="value_equals_default">def</string>
@@ -77,75 +77,75 @@
     <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
     <string name="live_display_color_profile_adaptive_title">Adaptive</string>
     <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
+    <string name="live_display_color_profile_reading_title">閱讀</string>
     <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
     <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
-    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
+    <string name="live_display_color_profile_dci_p3_summary">將顏色準確到 DCI-P3 色域</string>
+    <string name="live_display_reading_mode_title">閱讀模式</string>
+    <string name="live_display_reading_mode_summary">長時間閱讀灰階模式</string>
+    <string name="color_calibration_title">顏色校準</string>
+    <string name="color_calibration_summary">螢幕上顏色較校準</string>
+    <string name="color_red_title">紅</string>
+    <string name="color_green_title">綠</string>
+    <string name="color_blue_title">藍</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">Picture adjustment</string>
-    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
-    <string name="adj_hue_title">Hue</string>
-    <string name="adj_saturation_title">Saturation</string>
-    <string name="adj_intensity_title">Intensity</string>
-    <string name="adj_contrast_title">Contrast</string>
+    <string name="picture_adjustment_title">照片調整</string>
+    <string name="picture_adjustment_summary">調整色調, 飽和, 強度與對比</string>
+    <string name="adj_hue_title">色調</string>
+    <string name="adj_saturation_title">飽和</string>
+    <string name="adj_intensity_title">強度</string>
+    <string name="adj_contrast_title">對比</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_tuner_title">Status bar</string>
-    <string name="status_bar_tuner_summary">Customise the status bar</string>
+    <string name="statusbar_tuner_title">狀態列</string>
+    <string name="status_bar_tuner_summary">客製化狀態列</string>
     <!-- Privacy chip view -->
-    <string name="privacy_chip_visibility">Hide privacy icons</string>
-    <string name="privacy_chip_visibility_summary">Hide location, camera and microphone privacy icons</string>
-    <string name="customization_category_title">customization</string>
-    <string name="xscreen_category_title">screen</string>
-    <string name="brightness_category_title">brightness</string>
-    <string name="themes_category_title">themes</string>
+    <string name="privacy_chip_visibility">隱藏隱私圖示</string>
+    <string name="privacy_chip_visibility_summary">隱藏位置, 相機與麥克風隱私圖示</string>
+    <string name="customization_category_title">客製化</string>
+    <string name="xscreen_category_title">螢幕</string>
+    <string name="brightness_category_title">亮度</string>
+    <string name="themes_category_title">主題</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">平台</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">總記憶體</string>
     <!-- Media art -->
     <string name="lockscreen_media_settings_title">Media art</string>
     <string name="lockscreen_media_settings_summary">Adjust the media cover art and visualizer</string>
     <!-- Ambient edge lighting -->
-    <string name="ambient_light_title">Ambient light</string>
+    <string name="ambient_light_title">周圍燈光</string>
     <string name="ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">電池溫度</string>
     <!-- Back Gesture Height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
+    <string name="back_height_low_label">充滿</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">選項</string>
     <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
     <!-- Weather -->
-    <string name="weather_settings_title">Weather</string>
-    <string name="weather_settings_summary">Customise the weather</string>
+    <string name="weather_settings_title">天氣</string>
+    <string name="weather_settings_summary">客製化天氣</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="gesture_pill_message">Hide the navigation bar pill for seamless fullscreen gestures.</string>
     <!-- Double tap to sleep on status bar -->
-    <string name="double_tap_sleep_gesture_title">Double tap on status bar</string>
-    <string name="double_tap_sleep_gesture_summary">Sleep when status bar is double tapped</string>
+    <string name="double_tap_sleep_gesture_title">雙擊狀態列</string>
+    <string name="double_tap_sleep_gesture_summary">雙擊狀態列螢幕睡眠</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">保存耳塞</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_idle_title">Extended idle</string>
-    <string name="aggressive_idle_summary">Reduce device wake ups and reduce the time required to enter idle state</string>
-    <string name="aggressive_standby_title">Aggressive standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running in background</string>
+    <string name="aggressive_idle_title">延長閒置</string>
+    <string name="aggressive_idle_summary">減少裝置喚醒與減少進入閒置狀態時間</string>
+    <string name="aggressive_standby_title">積極待命</string>
+    <string name="aggressive_standby_summary">限制應用程式在背景執行</string>
     <!-- Doze on charge -->
-    <string name="ambient_display_off_summary">Off</string>
-    <string name="ambient_display_on_charge_title">While charging</string>
-    <string name="ambient_display_always_title">Always</string>
-    <string name="ambient_display_screen_summary">Show time, notification icons, and other info</string>
+    <string name="ambient_display_off_summary">關閉</string>
+    <string name="ambient_display_on_charge_title">當充電時</string>
+    <string name="ambient_display_always_title">永遠</string>
+    <string name="ambient_display_screen_summary">顯示時間, 通知圖示, 與其他資訊</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">重置資料</string>
+    <string name="battery_stats_message">重置電池歷史統計資料</string>
 </resources>

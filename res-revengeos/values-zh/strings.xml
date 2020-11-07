@@ -18,21 +18,21 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">找尋手機前指紋辨識感應器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">找尋手機正面指紋辨識感應器</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">找尋手機左側指紋辨識感應器</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">找尋手機右側指紋辨識感應器</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">找尋您裝置前置指紋辨識感應器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">找尋您裝置正面指紋辨識感應器</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">找尋您裝置左側指紋辨識感應器</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">找尋您裝置右側指紋辨識感應器</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">找尋您平板前指紋辨識感應器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">找尋您平板正面指紋辨識感應器</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">找尋您平板左側指紋辨識感應器</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">找尋您平板右側指紋辨識感應器</string>
     <!-- Custom light color -->
     <string name="custom_light_title">淺色</string>
-    <string name="custom_light_on_time_title">Led 脈衝(ms) 開燈時間</string>
-    <string name="custom_light_off_time_title">Led 脈衝(ms) 關燈時間</string>
+    <string name="custom_light_on_time_title">Led 脈衝(ms) 開啟時間</string>
+    <string name="custom_light_off_time_title">Led 脈衝(ms) 關閉時間</string>
     <string name="value_equals_default">預設</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">顯示CPU資訊</string>
@@ -52,19 +52,19 @@
     <string name="live_display_color_temperature_title">顏色溫度</string>
     <string name="live_display_color_temperature_summary">白天: <xliff:g id="白天溫度">%1$d</xliff:g>K  夜晚: <xliff:g id="夜晚溫度">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="度">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">戶外自動模式</string>
+    <string name="live_display_day">白天</string>
+    <string name="live_display_night">夜晚</string>
+    <string name="live_display_outdoor_mode_title">自動戶外模式</string>
     <string name="live_display_outdoor_mode_summary">在明亮太陽光下自動增加亮度與飽和度</string>
     <string name="live_display_low_power_title">降低功耗</string>
-    <string name="live_display_low_power_summary">為低功耗調整顯示無退化</string>
+    <string name="live_display_low_power_summary">在最低功耗調整顯示以防止衰退</string>
     <string name="live_display_enhance_color_title">增強顏色</string>
     <string name="live_display_enhance_color_summary">改善膚色, 風景與其他影像的顏色震動</string>
     <string name="live_display_color_profile_title">顏色描繪</string>
     <string name="live_display_color_profile_standard_title">標準</string>
     <string name="live_display_color_profile_standard_summary">精準的顏色與亮白色</string>
     <string name="live_display_color_profile_natural_title">自然的</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
+    <string name="live_display_color_profile_natural_summary">真實顏色和膚色</string>
     <string name="live_display_color_profile_dynamic_title">動態的</string>
     <string name="live_display_color_profile_dynamic_summary">增強顏色和亮白</string>
     <string name="live_display_color_profile_cinema_title">劇院</string>
@@ -86,7 +86,7 @@
     <string name="live_display_reading_mode_title">閱讀模式</string>
     <string name="live_display_reading_mode_summary">長時間閱讀灰階模式</string>
     <string name="color_calibration_title">顏色校準</string>
-    <string name="color_calibration_summary">螢幕上顏色較校準</string>
+    <string name="color_calibration_summary">校準螢幕上顏色</string>
     <string name="color_red_title">紅</string>
     <string name="color_green_title">綠</string>
     <string name="color_blue_title">藍</string>
@@ -117,7 +117,7 @@
     <string name="lockscreen_media_settings_summary">調整媒體封面藝術與視覺化</string>
     <!-- Ambient edge lighting -->
     <string name="ambient_light_title">環境燈光</string>
-    <string name="ambient_light_summary">提示點亮螢幕側邊</string>
+    <string name="ambient_light_summary">在通知脈衝上點亮螢幕側邊</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">電池溫度</string>
     <!-- Back Gesture Height -->
@@ -132,7 +132,7 @@
     <string name="gesture_pill_message">為無縫全螢幕手勢隱藏導航列</string>
     <!-- Double tap to sleep on status bar -->
     <string name="double_tap_sleep_gesture_title">雙擊狀態列</string>
-    <string name="double_tap_sleep_gesture_summary">雙擊狀態列螢幕睡眠</string>
+    <string name="double_tap_sleep_gesture_summary">雙擊狀態列讓螢幕睡眠</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">保存耳塞</string>
     <!-- Aggressive battery -->

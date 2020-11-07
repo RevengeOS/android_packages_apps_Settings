@@ -33,7 +33,7 @@
     <string name="custom_light_title">淺色</string>
     <string name="custom_light_on_time_title">Led 脈衝(ms) 開燈時間</string>
     <string name="custom_light_off_time_title">Led 脈衝(ms) 關燈時間</string>
-    <string name="value_equals_default">def</string>
+    <string name="value_equals_default">預設</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">顯示CPU資訊</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
@@ -50,8 +50,8 @@
     <string name="live_display_summary">根據白天與環境情況優化您的螢幕以改善可讀性與減少眼睛壓力</string>
     <string name="live_display_mode">顯示模式</string>
     <string name="live_display_color_temperature_title">顏色溫度</string>
-    <string name="live_display_color_temperature_summary">白天: <xliff:g id="day_temperature">%1$d</xliff:g>K  夜晚: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_summary">白天: <xliff:g id="白天溫度">%1$d</xliff:g>K  夜晚: <xliff:g id="夜晚溫度">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="度">%1$d</xliff:g>K</string>
     <string name="live_display_day">Day</string>
     <string name="live_display_night">Night</string>
     <string name="live_display_outdoor_mode_title">戶外自動模式</string>
@@ -70,7 +70,7 @@
     <string name="live_display_color_profile_cinema_title">劇院</string>
     <string name="live_display_color_profile_cinema_summary">為影片完美顏色再生</string>
     <string name="live_display_color_profile_astronomy_title">天文學</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
+    <string name="live_display_color_profile_astronomy_summary">深紅保留給夜視</string>
     <string name="live_display_color_profile_photography_title">攝影</string>
     <string name="live_display_color_profile_photography_summary">為相片完美顏色再生</string>
     <string name="live_display_color_profile_basic_title">基本的</string>

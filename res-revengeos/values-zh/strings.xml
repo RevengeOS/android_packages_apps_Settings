@@ -76,7 +76,7 @@
     <string name="live_display_color_profile_basic_title">基本的</string>
     <string name="live_display_color_profile_basic_summary">使用未校正顯示</string>
     <string name="live_display_color_profile_adaptive_title">適應性</string>
-    <string name="live_display_color_profile_adaptive_summary">適應環境情況顏色</string>
+    <string name="live_display_color_profile_adaptive_summary">顏色適應環境條件</string>
     <string name="live_display_color_profile_reading_title">閱讀</string>
     <string name="live_display_color_profile_reading_summary">暖色以降低眼睛壓力</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>

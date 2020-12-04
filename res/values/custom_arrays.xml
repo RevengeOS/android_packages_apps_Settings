@@ -41,7 +41,8 @@
         <item>@string/fod_recog_animation_pureview_future</item> 
         <item>@string/fod_recog_animation_pureview_halo_ring</item> 
         <item>@string/fod_recog_animation_pureview_molecular</item>
-    </string-array>
+	<item>@string/fod_recog_animation_op_cyberpunk</item>   
+ </string-array>
     <string-array name="fod_recognizing_animation_values" translatable="false">
         <item>0</item>
         <item>1</item>
@@ -58,5 +59,6 @@
         <item>12</item>
         <item>13</item>
         <item>14</item>
+	<item>15</item>
     </string-array>
 </resources>

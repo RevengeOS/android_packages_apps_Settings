@@ -37,4 +37,8 @@
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader</string>
 
+    <!-- Power Button - Long press for torch -->
+    <string name="torch_long_press_power_gesture_title">Long press power button for torch</string>
+    <string name="torch_long_press_power_gesture_summary">Toggles torch when power button is long pressed while display is off</string>
+
 </resources>

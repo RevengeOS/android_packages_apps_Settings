@@ -47,7 +47,7 @@
             android:summary="@string/fod_recog_animation_summary"
             android:defaultValue="false" />
 
-    <com.revengeos.settings.preferences.SystemSettingListPreference 
+    <com.revengeos.settings.preference.SystemSettingListPreference 
             android:key="fod_recognizing_animation_list" 
             android:title="@string/fod_recog_animation_effect_title" 
             android:summary="%s" 

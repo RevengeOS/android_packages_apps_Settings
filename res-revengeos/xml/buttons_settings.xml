@@ -37,6 +37,18 @@
             android:title="@string/volume_rocker_wake_title"
             android:defaultValue="false" />
 
+        <com.revengeos.settings.preference.SecureSettingSwitchPreference
+            android:key="advanced_reboot"
+            android:title="@string/global_actions_advanced_reboot_title"
+            android:summary="@string/global_actions_advanced_reboot_summary"
+            android:defaultValue="true" />
+
+        <com.revengeos.settings.preference.SystemSettingSwitchPreference
+           android:key="torch_long_press_power_gesture"
+           android:title="@string/torch_long_press_power_gesture_title"
+           android:summary="@string/torch_long_press_power_gesture_summary"
+           android:defaultValue="false"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>

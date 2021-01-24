@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (C) 2019 RevengeOS
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="default_text">默认</string>
+
+    <!-- Device info strings -->
+    <string name="revengeos_version">RevengeOS 版本</string>
+
+    <!-- Gestures -->
+    <string name="double_tap_title">双击</string>
+    <string name="double_tap_summary">息屏显示开关与点击手势</string>
+    <string name="double_tap_sleep_gesture">双击状态栏休眠</string>
+    <string name="double_tap_sleep_lockscreen">在锁屏状态下双击进入睡眠状态</string>
+
+    <!-- Battery health -->
+    <string name="battery_health_title">电池健康</string>
+    <string name="battery_health_summary">监控电池设备的运行状况</string>
+    <string name="current_battery_capacity">当前的电池容量</string>
+    <string name="current_battery_capacity_summary">由内核测量的当前电池容量</string>
+    <string name="designed_battery_capacity">设计的电池容量</string>
+    <string name="designed_battery_capacity_summary">由制造商设计的电池容量</string>
+
+    <!-- Button settings -->
+    <string name="buttons_settings_title">按钮</string>
+
+    <!-- Volume category -->
+    <string name="volume_keys_category">音量键</string>
+
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">音量键唤醒</string>
+    <string name="volume_rocker_wake_summary">按音量键将唤醒您的设备</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">播放控制</string>
+    <string name="volume_rocker_music_controls_summary">当屏幕关闭时，长按音量键将寻找音乐曲目</string>
+
+    <!-- Status bar -->
+    <string name="status_bar_title">状态栏</string>
+    <string name="icon_tuner_title">图标调整器</string>
+    <string name="icon_tuner_summary">添加或删除状态栏图标</string>
+
+    <!-- Media art -->
+    <string name="lockscreen_media_art_title">媒体专辑</string>
+    <string name="lockscreen_media_art_summary">切换媒体专辑在锁屏壁纸上的可见性</string>
+
+	<!-- Pocket mode -->
+    <string name="proximity_wake_title">防止意外唤醒</string>
+    <string name="proximity_wake_summary">在唤醒屏幕前检查接近传感器</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">锁屏充电信息</string>
+    <string name="lockscreen_battery_info_summary">显示充电电流，电压和温度</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">滑动屏幕截图</string>
+    <string name="three_finger_gesture_summary">用三根手指向下滑动屏幕就可以截图了</string>
+
+    <!-- Weather -->
+    <string name="weather_settings">天气</string>
+
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">根据一天中的时间和环境条件来优化你的屏幕，以提高可读性，减少眼睛疲劳</string>
+    <string name="live_display_mode">屏幕模式</string>
+    <string name="live_display_color_temperature_title">色温</string>
+    <string name="live_display_color_temperature_summary">白天: <xliff:g id="day_temperature">%1$d</xliff:g>K  晚上: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">白天</string>
+    <string name="live_display_night">晚上</string>
+    <string name="live_display_outdoor_mode_title">自动户外模式</string>
+    <string name="live_display_outdoor_mode_summary">在明亮的阳光下自动增加亮度和饱和度</string>
+    <string name="live_display_low_power_title">减少电源消耗</string>
+    <string name="live_display_low_power_summary">调整显示以实现最低功耗而不会降低性能</string>
+    <string name="live_display_enhance_color_title">增强色彩</string>
+    <string name="live_display_enhance_color_summary">改善肤色，风景和其他图像的色彩鲜艳度</string>
+    <string name="live_display_color_profile_title">颜色配置文件</string>
+    <string name="live_display_color_profile_standard_title">标准</string>
+    <string name="live_display_color_profile_standard_summary">准确的颜色和明亮的白色</string>
+    <string name="live_display_color_profile_natural_title">自然</string>
+    <string name="live_display_color_profile_natural_summary">逼真的颜色和肉色调</string>
+    <string name="live_display_color_profile_dynamic_title">动态</string>
+    <string name="live_display_color_profile_dynamic_summary">增强的颜色和明亮的白色</string>
+    <string name="live_display_color_profile_cinema_title">电影</string>
+    <string name="live_display_color_profile_cinema_summary">完美的视频色彩还原</string>
+    <string name="live_display_color_profile_astronomy_title">天文</string>
+    <string name="live_display_color_profile_astronomy_summary">深红色有利于保持夜间视力</string>
+    <string name="live_display_color_profile_photography_title">摄影</string>
+    <string name="live_display_color_profile_photography_summary">完美的照片色彩还原</string>
+    <string name="live_display_color_profile_basic_title">基本</string>
+    <string name="live_display_color_profile_basic_summary">使用未经校准的显示</string>
+    <string name="live_display_color_profile_adaptive_title">自适应</string>
+    <string name="live_display_color_profile_adaptive_summary">颜色适应环境的变化</string>
+    <string name="live_display_color_profile_reading_title">阅读</string>
+    <string name="live_display_color_profile_reading_summary">暖色可以减少眼睛疲劳</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">色彩精确到sRGB色彩空间</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">色彩精确到DCI-P3色彩空间</string>
+    <string name="live_display_reading_mode_title">阅读模式</string>
+    <string name="live_display_reading_mode_summary">灰度模式可适用长期阅读</string>
+    <string name="color_calibration_title">色彩校正</string>
+    <string name="color_calibration_summary">校准屏幕颜色</string>
+    <string name="color_red_title">红色</string>
+    <string name="color_green_title">绿色</string>
+    <string name="color_blue_title">蓝色</string>
+
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">图片调整</string>
+    <string name="picture_adjustment_summary">调整色相，饱和度，强度和对比度</string>
+    <string name="adj_hue_title">色调</string>
+    <string name="adj_saturation_title">饱和</string>
+    <string name="adj_intensity_title">亮度</string>
+    <string name="adj_contrast_title">对比</string>
+
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">弹出通知</string>
+    <string name="heads_up_notifications_enabled_summary">在一个小的浮动窗口中显示优先级通知</string>
+
+    <!-- Aggressive battery -->
+    <string name="aggressive_idle_title">长时间闲置</string>
+    <string name="aggressive_idle_summary">减少设备唤醒并减少进入空闲状态所需的时间</string>
+    <string name="aggressive_standby_title">极致待机</string>
+    <string name="aggressive_standby_summary">限制应用程序在后台运行</string>
+</resources>

@@ -153,8 +153,8 @@
     <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
     <string name="data_usage_app_restrict_vpn">VPN data</string>
     <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi">WiFi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of WiFi data</string>
     <string name="data_usage_app_restrict_all">Allow network access</string>
     <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
 </resources>

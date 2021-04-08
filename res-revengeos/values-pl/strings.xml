@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_text">"Domyślna"</string>
+
+    <!-- Device info strings -->
+    <string name="revengeos_version">"Wersja RevengeOS"</string>
+
+    <!-- Gestures -->
+    <string name="double_tap_title">"Podwójne wciśnięcie"</string>
+    <string name="double_tap_summary">"Włączanie i wyłączanie wyświetlacza za pomocą gestów dotknięcia"</string>
+    <string name="double_tap_sleep_gesture">"Dotknij dwukrotnie, aby uśpić na pasku stanu"</string>
+    <string name="double_tap_sleep_lockscreen">"Dotknij dwukrotnie, aby uśpić na ekranie blokady"</string>
+
+    <!-- Battery health -->
+    <string name="battery_health_title">"Stan baterii"</string>
+    <string name="battery_health_summary">"Monitoruj stan baterii swojego urządzenia"</string>
+    <string name="current_battery_capacity">"Aktualna pojemność baterii"</string>
+    <string name="current_battery_capacity_summary">"Aktualna pojemność baterii mierzona przez jądro"</string>
+    <string name="designed_battery_capacity">"Zaprojektowana pojemność baterii"</string>
+    <string name="designed_battery_capacity_summary">"Pojemność baterii zaprojektowana przez producenta"</string>
+
+    <!-- Button settings -->
+    <string name="buttons_settings_title">"Przyciski"</string>
+
+    <!-- Volume category -->
+    <string name="volume_keys_category">"Klawisze głośności"</string>
+
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">"Obudzić rocker głośności"</string>
+    <string name="volume_rocker_wake_summary">"Naciśnięcie klawiszy głośności spowoduje wybudzenie urządzenia"</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">"Kontrola odtwarzania"</string>
+    <string name="volume_rocker_music_controls_summary">"Gdy ekran jest wyłączony, długie naciśnięcie klawiszy głośności spowoduje wyszukanie utworów muzycznych"</string>
+
+    <!-- Status bar -->
+    <string name="status_bar_title">"Pasek stanu"</string>
+    <string name="icon_tuner_title">"Ikona tunera"</string>
+    <string name="icon_tuner_summary">"Dodaj lub usuń ikony paska stanu"</string>
+
+    <!-- Media art -->
+    <string name="lockscreen_media_art_title">"Okładka multimediow"</string>
+    <string name="lockscreen_media_art_summary">"Przełącz widoczność grafiki multimedialnej"</string>
+
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">"Zapobiegaj przypadkowemu wybudzeniu"</string>
+    <string name="proximity_wake_summary">"Sprawdź czujnik zbliżeniowy przed wybudzeniem ekranu"</string>
+
+    <!-- Lockscreen battery info indicator -->
+    <string name="lockscreen_battery_info_title">"Informacje o ładowaniu na ekranie blokady"</string>
+    <string name="lockscreen_battery_info_summary">"Wyświetla prąd ładowania, napięcie i temperaturę"</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">"Przesuń do zrzutu ekranu"</string>
+    <string name="three_finger_gesture_summary">"Przesuń trzema palcami w dół, aby zrobić zrzut ekranu"</string>
+
+    <!-- Weather -->
+    <string name="weather_settings">"Pogoda"</string>
+
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">"Zoptymalizuj ekran w zależności od pory dnia i warunków otoczenia, aby poprawić czytelność i zmniejszyć zmęczenie oczu"</string>
+    <string name="live_display_mode">"Tryb wyświetlania"</string>
+    <string name="live_display_color_temperature_title">"Temperatura koloru"</string>
+    <string name="live_display_color_temperature_summary">"Dzień: &lt;xliff: g id = \"day_temperature\"&gt;% 1 $ d &lt;/ xliff: g&gt; K Noc: &lt;xliff: g id = \"night_temperature\"&gt;% 2 $ d &lt;/ xliff: g&gt; K"</string>
+    <string name="live_display_color_temperature_label">"&lt;xliff: g id = \"stopnie\"&gt;% 1 $ d &lt;/ xliff: g&gt; K"</string>
+    <string name="live_display_day">"Dzień"</string>
+    <string name="live_display_night">"Noc"</string>
+    <string name="live_display_outdoor_mode_title">"Automatyczny tryb na zewnątrz"</string>
+    <string name="live_display_outdoor_mode_summary">"Zwiększ automatycznie jasność i nasycenie w jasnym świetle słonecznym"</string>
+    <string name="live_display_low_power_title">"Zmniejsz zużycie energii"</string>
+    <string name="live_display_low_power_summary">"Dostosuj wyświetlacz pod kątem najniższego zużycia energii bez degradacji"</string>
+    <string name="live_display_enhance_color_title">"Wzmocnij kolory"</string>
+    <string name="live_display_enhance_color_summary">"Popraw intensywność kolorów odcieni skóry, scenerii i innych obrazów"</string>
+    <string name="live_display_color_profile_title">"Profil kolorów"</string>
+    <string name="live_display_color_profile_standard_title">"Standard"</string>
+    <string name="live_display_color_profile_standard_summary">"Dokładne kolory i jasna biel"</string>
+    <string name="live_display_color_profile_natural_title">"Naturalny"</string>
+    <string name="live_display_color_profile_natural_summary">"Realistyczne kolory i odcienie skóry"</string>
+    <string name="live_display_color_profile_dynamic_title">"Dynamiczny"</string>
+    <string name="live_display_color_profile_dynamic_summary">"Ulepszone kolory i jasna biel"</string>
+    <string name="live_display_color_profile_cinema_title">"Kino"</string>
+    <string name="live_display_color_profile_cinema_summary">"Doskonałe odwzorowanie kolorów dla wideo"</string>
+    <string name="live_display_color_profile_astronomy_title">"Astronomia"</string>
+    <string name="live_display_color_profile_astronomy_summary">"Głęboka czerwień dla zachowania nocnego widzenia"</string>
+    <string name="live_display_color_profile_photography_title">"Fotografia"</string>
+    <string name="live_display_color_profile_photography_summary">"Doskonałe odwzorowanie kolorów na zdjęciach"</string>
+    <string name="live_display_color_profile_basic_title">"Podstawowy"</string>
+    <string name="live_display_color_profile_basic_summary">"Użyj nieskalibrowanego wyświetlacza"</string>
+    <string name="live_display_color_profile_adaptive_title">"Adaptacyjny"</string>
+    <string name="live_display_color_profile_adaptive_summary">"Kolory dostosowują się do warunków otoczenia"</string>
+    <string name="live_display_color_profile_reading_title">"Czytanie"</string>
+    <string name="live_display_color_profile_reading_summary">"Cieplejsze kolory dla mniejszego zmęczenia oczu"</string>
+    <string name="live_display_color_profile_srgb_title">"sRGB"</string>
+    <string name="live_display_color_profile_srgb_summary">"Kolory zgodne z przestrzenią kolorów sRGB"</string>
+    <string name="live_display_color_profile_dci_p3_title">"DCI-P3"</string>
+    <string name="live_display_color_profile_dci_p3_summary">"Kolory zgodne z przestrzenią barw DCI-P3"</string>
+    <string name="live_display_reading_mode_title">"Tryb czytania"</string>
+    <string name="live_display_reading_mode_summary">"Tryb skali szarości do długotrwałego czytania"</string>
+    <string name="color_calibration_title">"Kalibracja kolorów"</string>
+    <string name="color_calibration_summary">"Kalibruj kolory na ekranie"</string>
+    <string name="color_red_title">"Czerwony"</string>
+    <string name="color_green_title">"Zielony"</string>
+    <string name="color_blue_title">"niebieski"</string>
+
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">"Regulacja obrazu"</string>
+    <string name="picture_adjustment_summary">"Dostosuj odcień, nasycenie, intensywność i kontrast"</string>
+    <string name="adj_hue_title">"Odcień"</string>
+    <string name="adj_saturation_title">"Nasycenie"</string>
+    <string name="adj_intensity_title">"Intensywność"</string>
+    <string name="adj_contrast_title">"Kontrast"</string>
+
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">"Heads-up"</string>
+    <string name="heads_up_notifications_enabled_summary">"Wyświetlaj powiadomienia priorytetowe w małym ruchomym oknie"</string>
+
+    <!-- Aggressive battery -->
+    <string name="aggressive_idle_title">"Rozszerzony bezczynność"</string>
+    <string name="aggressive_idle_summary">"Zmniejsz liczbę wybudzeń urządzenia i skróć czas potrzebny do przejścia w stan bezczynności"</string>
+    <string name="aggressive_standby_title">"Agresywny tryb gotowości"</string>
+    <string name="aggressive_standby_summary">"Ogranicz uruchamianie aplikacji w tle"</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">"Długość paska gestów"</string>
+    <string name="hidden_label">"Ukryty"</string>
+    <string name="long_label">"Długi"</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="net_monitor_category_title">"Monitor sieci"</string>
+    <string name="network_traffic_state_title">"Pokaż aktywność sieciową w rozwiniętym pasku stanu"</string>
+    <string name="network_traffic_autohide_threshold_title">"Próg autoukrywania aktywności netto (KB / s)"</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_mobile">"Dane mobilne"</string>
+    <string name="data_usage_app_restrict_mobile_summary">"Włącz korzystanie z danych mobilnych"</string>
+    <string name="data_usage_app_restrict_vpn">"Dane VPN"</string>
+    <string name="data_usage_app_restrict_vpn_summary">"Włącz korzystanie z danych VPN"</string>
+    <string name="data_usage_app_restrict_wifi">"Dane Wifi"</string>
+    <string name="data_usage_app_restrict_wifi_summary">"Włącz korzystanie z danych WiFi"</string>
+    <string name="data_usage_app_restrict_all">Zezwól na dostęp do sieci</string>
+    <string name="data_usage_app_restrict_all_summary">Zezwól na dostęp do sieci</string>
+</resources>

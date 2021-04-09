@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="default_text">"Domyślna"</string>
 
     <!-- Device info strings -->
@@ -61,8 +61,8 @@
     <string name="live_display_summary">"Zoptymalizuj ekran w zależności od pory dnia i warunków otoczenia, aby poprawić czytelność i zmniejszyć zmęczenie oczu"</string>
     <string name="live_display_mode">"Tryb wyświetlania"</string>
     <string name="live_display_color_temperature_title">"Temperatura koloru"</string>
-    <string name="live_display_color_temperature_summary">"Dzień: &lt;xliff: g id = \"day_temperature\"&gt;% 1 $ d &lt;/ xliff: g&gt; K Noc: &lt;xliff: g id = \"night_temperature\"&gt;% 2 $ d &lt;/ xliff: g&gt; K"</string>
-    <string name="live_display_color_temperature_label">"&lt;xliff: g id = \"stopnie\"&gt;% 1 $ d &lt;/ xliff: g&gt; K"</string>
+    <string name="live_display_color_temperature_summary">Dzień: <xliff:g id="day_temperature">%1$d</xliff:g>K Noc: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">"Dzień"</string>
     <string name="live_display_night">"Noc"</string>
     <string name="live_display_outdoor_mode_title">"Automatyczny tryb na zewnątrz"</string>

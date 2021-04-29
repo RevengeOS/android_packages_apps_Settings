@@ -57,6 +57,8 @@ import com.android.settingslib.widget.LayoutPreference;
 
 import java.util.UUID;
 
+import com.revengeos.revengeui.recyclerview.BounceEdgeEffectFactory;
+
 /**
  * Base class for Settings fragments, with some helper functions and dialog management.
  */
@@ -140,6 +142,7 @@ public abstract class SettingsPreferenceFragment extends InstrumentedPreferenceF
             Bundle savedInstanceState) {
         final View root = super.onCreateView(inflater, container, savedInstanceState);
         mPinnedHeaderFrameLayout = root.findViewById(R.id.pinned_header);
+        getListView().setEdgeEffectFactory(new BounceEdgeEffectFactory());
         return root;
     }
 

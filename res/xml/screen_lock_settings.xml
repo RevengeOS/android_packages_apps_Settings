@@ -55,5 +55,4 @@
             android:entryValues="@array/fod_recognizing_animation_values" 
             android:defaultValue="0"
             android:dependency="fod_recognizing_animation" />
-
 </PreferenceScreen>

@@ -162,6 +162,21 @@
         android:title="@string/proximity_wake_title"
         android:summary="@string/proximity_wake_summary" />
 
+    <com.revengeos.settings.preference.SystemSettingSwitchPreference
+          android:key="reticker_status"
+          android:title="@string/reticker_title"
+          android:summary="@string/reticker_summary"
+          android:order="9"
+          android:defaultValue="false" />
+
+    <com.revengeos.settings.preference.SystemSettingSwitchPreference
+          android:dependency="reticker_status"
+          android:key="reticker_colored"
+          android:title="@string/reticker_colored_title"
+          android:summary="@string/reticker_colored_summary"
+          android:order="10"
+          android:defaultValue="false" />
+          
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"

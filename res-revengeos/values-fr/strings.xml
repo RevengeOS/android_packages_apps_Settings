@@ -134,15 +134,18 @@
     <string name="double_tap_sleep_gesture_title">Double appui sur la barre d\'état</string>
     <string name="double_tap_sleep_gesture_summary">Mettre en veille lors du double appui sur la barre d\'état</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Écouteurs enregistrés</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_idle_title">Extended idle</string>
-    <string name="aggressive_idle_summary">Reduce device wake ups and reduce the time required to enter idle state</string>
-    <string name="aggressive_standby_title">Aggressive standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running in background</string>
+    <string name="aggressive_idle_title">Inactivité prolongée</string>
+    <string name="aggressive_idle_summary">Réduire les réveils de l\'appareil et réduire le temps nécessaire pour entrer dans l\'état d\'inactivité</string>
+    <string name="aggressive_standby_title">Veille agressive</string>
+    <string name="aggressive_standby_summary">Restreindre l\'exécution des applications en arrière plan</string>
     <!-- Doze on charge -->
-    <string name="ambient_display_off_summary">Off</string>
-    <string name="ambient_display_on_charge_title">While charging</string>
-    <string name="ambient_display_always_title">Always</string>
-    <string name="ambient_display_screen_summary">Show time, notification icons, and other info</string>
+    <string name="ambient_display_off_summary">Désactivé</string>
+    <string name="ambient_display_on_charge_title">Lors de la charge</string>
+    <string name="ambient_display_always_title">Toujours</string>
+    <string name="ambient_display_screen_summary">Afficher l\'heure, les icônes de notification, et d\'autres infos</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Réinitialiser les stats</string>
+    <string name="battery_stats_message">L\'historique des statistiques de la batterie vont être réinitialisées</string>
 </resources>

@@ -134,15 +134,18 @@
     <string name="double_tap_sleep_gesture_title">Двойное нажатие на строку состояния</string>
     <string name="double_tap_sleep_gesture_summary">Сон при двойном нажатии на строку состояния</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_idle_title">Extended idle</string>
-    <string name="aggressive_idle_summary">Reduce device wake ups and reduce the time required to enter idle state</string>
-    <string name="aggressive_standby_title">Aggressive standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running in background</string>
+    <string name="aggressive_idle_title">Расширенный режим ожидания</string>
+    <string name="aggressive_idle_summary">Уменьшить пробуждения устройства и сократить время, необходимое для входа в режим простоя</string>
+    <string name="aggressive_standby_title">Агрессивный режим ожидания</string>
+    <string name="aggressive_standby_summary">Ограничить работу приложений в фоновом режиме</string>
     <!-- Doze on charge -->
-    <string name="ambient_display_off_summary">Off</string>
-    <string name="ambient_display_on_charge_title">While charging</string>
-    <string name="ambient_display_always_title">Always</string>
-    <string name="ambient_display_screen_summary">Show time, notification icons, and other info</string>
+    <string name="ambient_display_off_summary">Выкл</string>
+    <string name="ambient_display_on_charge_title">Во время зарядки</string>
+    <string name="ambient_display_always_title">Всегда</string>
+    <string name="ambient_display_screen_summary">Показывать время, уведомления и другую информацию</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Сбросить статистику</string>
+    <string name="battery_stats_message">Статистика батареи будет сброшена</string>
 </resources>

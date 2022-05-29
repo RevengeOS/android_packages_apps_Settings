@@ -145,4 +145,7 @@
     <string name="ambient_display_on_charge_title">Podczas ładowania</string>
     <string name="ambient_display_always_title">Zawsze</string>
     <string name="ambient_display_screen_summary">Pokaż czas, ikony powiadomień i inne informacje</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset statystyk</string>
+    <string name="battery_stats_message">Statystyki historii baterii będą zresetowane</string>
 </resources>

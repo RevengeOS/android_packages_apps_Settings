@@ -18,17 +18,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">화면에 있는 지문인식 센서에 손가락을 인식시켜주세요</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">왼쪽에 있는 지문인식 센서에 손가락을 인식시켜주세요</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">오른쪽에 있는 지문인식 센서에 손가락을 인식시켜주세요</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">화면에 있는 지문인식 센서에 손가락을 인식시켜주세요</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">왼쪽에 있는 지문인식 센서에 손가락을 인식시켜주세요</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">오른쪽에 있는 지문인식 센서에 손가락을 인식시켜주세요</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">화면에 있는 지문인식 센서에 손가락을 인식시켜주세요</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">왼쪽에 있는 지문인식 센서에 손가락을 인식시켜주세요</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">오른쪽에 있는 지문인식 센서에 손가락을 인식시켜주세요</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Light color</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
@@ -145,4 +145,7 @@
     <string name="ambient_display_on_charge_title">While charging</string>
     <string name="ambient_display_always_title">Always</string>
     <string name="ambient_display_screen_summary">Show time, notification icons, and other info</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">배터리 소모 기록이 초기화됩니다</string>
 </resources>
